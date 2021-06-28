@@ -52,7 +52,23 @@ h1  {
 /* main image and text */
 
 #title-outer {
-    clear: both;
+    height: 600px;
+    width: 100%;
+    position: relative;
+    color: inherit;
+    overflow: hidden;
+    background-image: url('assets/images/background.jpg') no-repeat center center;
+}
+
+#title-image {
+    width: 100%;
+    height: 600px;
+}
+
+#title-text {
+    position: absolute;
+    top: 100px;
+    left: 50%;
 }
 
 /* gallery */
