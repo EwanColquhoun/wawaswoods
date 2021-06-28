@@ -33,6 +33,8 @@ h1  {
 #logo {
     float: left;
     color: #fdf9ee;
+    margin-left: 15px;
+    font-weight: lighter;
 }
 
 h2, h3 {
@@ -71,19 +73,19 @@ h2, h3 {
 /* main image and text */
 
 #title-outer {
-    height: 600px;
+    height: 450px;
     width: 100%;
     position: relative;
 }
 
 #title-image {
     width: 100%;
-    height: 600px;
+    height: 450px;
 }
 
 #title-text {
     font-size: 600%;
-    padding: 0;
+    padding-top: 0px
     margin: 0;
     text-align: center;
     height: 300px;
@@ -99,25 +101,41 @@ h2, h3 {
 /* gallery */
 
 #gallery {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 300px);
+    grid-gap: 0px;
+    height: 600px;
+}
+
+#gallery > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* other gallery option --- 
+
+#gallery {
     clear: both;
+    line-height: 0;
     column-count: 4;
     column-gap: 0;
-    height: 1200px;
-    overflow: hidden;
-    line-height: 0;
-    width: 100%;
 }
 
 #gallery > img {
     width: 100%;
 }
 
+*/
+
 
 /* about us */
 
 #about-us {
     height: 600px;
-    margin: 0 auto;
+    margin: 20px auto;
     width: 100%;
 }
 
@@ -131,6 +149,7 @@ h2, h3 {
     float: left;
     padding-top: 20px;
     width: 50%;
+    font-size: large;
 }
 
 #about-us-image {
