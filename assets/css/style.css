@@ -18,7 +18,7 @@ a {
 
 header {
     height: 100px;
-    border: 1px solid #1B3D2F;
+    background-color: #1B3D2F;
 }
 /* headings and logo */
 
@@ -32,6 +32,7 @@ h1  {
 
 #logo {
     float: left;
+    color: #fdf9ee;
 }
 
 h2, h3 {
@@ -47,14 +48,19 @@ h2, h3 {
 
 #menu {
     float: right;
-    letter-spacing: 4px;
-    font-size: 120%;
+    letter-spacing: 5px;
+    font-size: 150%;
 }
 
 #menu > li {
     list-style-type: none;
     float: left;
     margin-right: 20px;
+}
+
+.navlink {
+    color: #fdf9ee;
+    font-family: 'Caveat', cursive;
 }
 
 #menu, #logo {
@@ -99,11 +105,50 @@ h2, h3 {
     height: 1200px;
     overflow: hidden;
     line-height: 0;
+    width: 100%;
 }
 
 #gallery > img {
     width: 100%;
 }
+
+
+/* about us */
+
+#about-us {
+    height: 600px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#about-us > h2 {
+    text-align: center;
+    padding: 20px;
+    font-size: 300%;
+}
+
+#about-us-text {
+    float: left;
+    padding-top: 20px;
+    width: 50%;
+}
+
+#about-us-image {
+    float: right;
+    width: 50%;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+
+#about-us-image > img {
+    height: auto;
+    width: 100%;
+}
+
+#about-us-text > p {
+    padding: 10px;
+}
+
 
 /* footer */
 
