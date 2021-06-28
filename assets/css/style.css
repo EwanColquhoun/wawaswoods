@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Lato:ital@1&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   border: none; 
+}
+
+body { 
+   background-color: #fdf9ee ;
+   font-family: Lato, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* headings and logo */
+
+h1  {
+    font-family: 'Caveat', cursive;
+    color: #1B3D2F;
+    letter-spacing: 4px;
+    font-size: 500%;
+    text-decoration: none;
+}
+
+#logo {
+    float: left;
+    display: inline-block;
+}
+
+/* navigation */
+
+#menu {
+    float: right;
+    letter-spacing: 4px;
+}
+
+#menu > li {
+    list-style-type: none;
+    float: left;
+    margin-right: 20px;
+}
+
+#menu, #logo {
+    line-height: 100px;
+}
+
+
+/* main image and text */
+
+#title-outer {
+    clear: both;
+}
+
+/* gallery */
+
+#gallery {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#gallery > img {
+    width: 100%;
+}
+
