@@ -46,6 +46,17 @@ h2, h3 {
     font-size: 60%;
 }
 
+#title-text > h2 {
+    font-size: larger;
+    padding: 0px;
+}
+
+h2 {
+    text-align: center;
+    padding: 40px;
+    font-size: 300%;
+}
+
 /* navigation */
 
 #menu {
@@ -139,12 +150,6 @@ h2, h3 {
     width: 100%;
 }
 
-#about-us > h2 {
-    text-align: center;
-    padding: 40px;
-    font-size: 300%;
-}
-
 #about-us-text {
     float: left;
     padding-top: 20px;
@@ -178,13 +183,61 @@ h2, h3 {
     box-sizing: border-box;
 }
 
-#testimonials > h2 {
+
+/* contact us styling */
+
+#contact-us {
     text-align: center;
-    padding: 40px;
-    font-size: 300%;
+    width: 100%;
+    height: 600px;
+    box-sizing: border-box;
+    position: relative;
 }
 
+#contact-text-outer {
+    width: 50%;
+    height: 450px;
+    float: left;
+    position: absolute;
+    display: inline-float;
+    box-sizing: border-box;
+}
 
+#contact-map-outer {
+    width: 50%;
+    height: 600px;
+    float: right;
+    position: absolute;
+    display: inline;
+    box-sizing: border-box;
+}
+    
+#contact-text-outer li {
+    padding: 20px;
+    text-size-adjust: 120%;
+}
+
+/* form */
+
+#form {
+    height: 450px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid #1B3D2F;
+    padding: 20px;
+}
+
+#message {
+    float: right;
+}
+
+#contact-fields {
+    float: left;
+    width: 50%;
+    height: 300px;
+    box-sizing: border-box;
+}
 
 /* footer */
 
@@ -211,7 +264,7 @@ footer {
 footer > h3 {
     text-align: right;
     display: inline;
-    padding: 2%;
+    padding: 5px;
     margin-top: none;
     font-size: 140%;
 }

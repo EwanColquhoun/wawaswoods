@@ -31,6 +31,47 @@
         </nav>
     </header>
 
+    <section id="contact-us">
+        <h2>Contact Us</h2>
+        <div id="contact-text-outer">
+            <ul>
+                <li>The Workshop, <br> Edinburgh
+                </li>
+                <li>+44 123 456 789
+                </li>
+                <li>wawaswoods@outlook.com
+                </li>
+            </ul>
+        </div>
+        <div id="contact-map-outer">
+            <div id="contact-map-inner">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6442.099025194258!2d-3.1657063163116725!3d55.94604663930337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4887b884112f22b9%3A0x218a466c41934cf0!2sArthur&#39;s%20Seat!5e0!3m2!1sen!2suk!4v1624962821684!5m2!1sen!2suk" 
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Need to find a way to test the below form-->
+    <section id="form">
+        <div id="design-query-form">
+            <h2>Design Query</h2>
+            <form action="assets/form/formdump.html" method="post">
+               <div id="contact-fields">
+                <label for="name" class="text-input">Name:</label>
+                <input type="text" class="text-input" name="name" required>
+                <label for="email" class="text-input">E-mail:</label>
+                <input type="email" class="text-input" name="email" required>
+                <label for="phone"class="text-input">Phone Number:</label>
+                <input type="text" class="text-input" name="phone">
+                <label for="callback" class="text-input">Request a callback</label>
+                <input type="checkbox" class="text-input" name="callback">
+                </div>
+                <textarea id="message" name="message" rows="15" cols="60" placeholder="Insert your message here"></textarea>
+                <input type="submit" value="Submit" id="submit">
+            </form>
+        </div>
+    </section>
+
     <footer>
         <ul class="social-networks">
             <li><a href="facebook#" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook-f"></i></a></li>
@@ -38,6 +79,7 @@
             <li><a href="github#" target="_blank" rel="noopener" aria-label="Visit our Github page (opens in a new tab)"><i class="fab fa-github"></i></a></li>
             <li><a href="linkedin#" target="_blank" rel="noopener" aria-label="Visit our LinkedIn page (opens in a new tab)"><i class="fab fa-linkedin-in"></i></a></li>
         </ul>
+        <h3>Copyright Wawas Woods 2021</h3>
     </footer>
 
     <!-- font awesome script below -->
