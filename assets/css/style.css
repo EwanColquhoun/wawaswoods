@@ -18,7 +18,7 @@ a {
 
 header {
     height: 100px;
-    background-color: #1B3D2F;
+    background-color: #1a3c2e;
 }
 /* headings and logo */
 
@@ -85,7 +85,7 @@ h2, h3 {
 
 #title-text {
     font-size: 600%;
-    padding-top: 0px
+    padding-top: 0px;
     margin: 0;
     text-align: center;
     height: 300px;
@@ -134,14 +134,14 @@ h2, h3 {
 /* about us */
 
 #about-us {
-    height: 600px;
+    height: 450px;
     margin: 20px auto;
     width: 100%;
 }
 
 #about-us > h2 {
     text-align: center;
-    padding: 20px;
+    padding: 40px;
     font-size: 300%;
 }
 
@@ -167,6 +167,23 @@ h2, h3 {
 #about-us-text > p {
     padding: 10px;
 }
+
+/* testimonials */
+
+#testimonials {
+    height: 600px;
+    padding: 40px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+#testimonials > h2 {
+    text-align: center;
+    padding: 40px;
+    font-size: 300%;
+}
+
 
 
 /* footer */
