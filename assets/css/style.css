@@ -58,6 +58,11 @@ h2 {
     font-size: 300%;
 }
 
+h3 {
+    font-size: 200%;
+    padding: 30px;
+}
+
 /* navigation */
 
 #menu {
@@ -357,6 +362,10 @@ form > #textarea {
     height: auto;
     display: inline-block;
     padding: 20px;
+}
+
+#oakimage {
+    width: 500px;
 }
 
 #oaktext, #oaktext {
