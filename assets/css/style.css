@@ -63,6 +63,8 @@ h3 {
     padding: 30px;
 }
 
+
+
 /* navigation */
 
 #menu {
@@ -113,11 +115,6 @@ h3 {
     position: relative;
 }
 
-#title-image {
-    width: 100%;
-    height: 450px;
-}
-
 #title-text {
     font-size: 600%;
     padding-top: 0px;
@@ -127,6 +124,7 @@ h3 {
     width: 100%;
     position: absolute;
     top: 100px;
+    overflow: auto;
 }
 
 #title-text > h3 {
@@ -418,4 +416,53 @@ footer > h3 {
     margin-top: none;
     font-size: 140%;
 }
+
+/* For large to medium screens sizes from 1200px wide and down */
+@media screen and (max-width: 950px){
+
+    #menu {
+        float: left;
+        clear: both;
+        text-decoration: none;
+        letter-spacing: initial;
+        line-height: initial;
+    }
+    #logo {
+        font-size: 250%;
+        line-height: initial;
+        margin: auto;
+    }
+
+    #about-us-image {
+        float: left;
+        clear: both;
+        height: auto;
+        width: 100%;
+        padding: 0px;
+    }
+
+    #about-us-text {
+        padding-top: 20px;
+        width: 100vw;
+        font-size: initial;
+    }
+
+    #about-us-text > p {
+        padding: 20px;
+        max-width: 95%;
+    }
+    
+    #testimonials {
+        margin-top: 2px;
+    }
+
+    #title-text {
+        font-size: 350%;
+    }
+
+
+
+
+
+
 
