@@ -311,49 +311,44 @@ form > #textarea {
 /* inspiration */
 
 #inspiration {
-    position: relative;
-    height: 1800px;
+    height: 2400px;
     width: 100%;
 }
-#inspiration > div {
-    width: 50%;
-    height: 600px;
-    border: 1px solid #1b3d2f;
-    display: inline;
-    position: relative;
-    background-position: center;
-    overflow: hidden;
-}
 
-#elm2 {
-    width: 50%;
+#elmimage, #oakimage, #elm2image{
+    width: 400px;
     height: auto;
-    object-fit: contain;
+    display: inline-block;
+    padding: 20px;
 }
 
-.ins-float-right {
+#oaktext, #oaktext {
+    display: inline-block;
+    padding: 20px;
+}
+
+#oakimage, #oaktext {
     float: right;
     clear: left;
-    position: absolute;
 }
 
-.ins-float-left {
+#elmimage, #elmtext, #elm2image, #elm2text {
     float: left;
-    position: absolute;
     clear: right;
+    margin-left: 10%;
+    padding-top: 2%;
 }
 
-#inspiration-one {
-   background-color: #1B3D2F;
-   text-align: center;
+#elm2image, #elm2text {
+
 }
-
-
 /* footer */
 
 footer {
     height: 180px;
     text-align: center;
+    position: static;
+    bottom: 1px;
 }
 
 .social-networks {
