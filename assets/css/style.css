@@ -64,6 +64,7 @@ h2 {
     float: right;
     letter-spacing: 5px;
     font-size: 150%;
+    text-decoration: none;
 }
 
 #menu > li {
@@ -77,10 +78,27 @@ h2 {
     font-family: 'Caveat', cursive;
 }
 
+.navlink:hover {
+    border-bottom: 2px solid #fdf9ee;
+}
+
+#active {
+    border-bottom: 2px solid #fdf9ee;
+}
+
 #menu, #logo {
     line-height: 100px;
 }
 
+#getintouch-link a {
+    text-decoration: inherit;
+    color: inherit;
+    font-style: italic;
+}
+
+#getintouch-link:hover {
+    border-bottom: 1px solid #1B3D2F;
+}
 
 /* main image and text */
 
@@ -187,6 +205,14 @@ h2 {
     box-sizing: border-box;
 }
 
+/* project styling */
+
+#projects > div {
+    border: 1px solid black;
+    width: 80%;
+    height: 600px;
+    margin: auto;
+}
 
 /* contact us styling */
 
@@ -224,6 +250,17 @@ h2 {
 #contact-map-inner {
     padding-right: 3%;
 }
+
+#email-icon {
+    color: #1B3D2F;
+    padding: 20px;
+    font-size: larger;
+}
+
+#email-icon:hover {
+    transform: scale(1.3);
+}
+
 /* form */
 
 #form {
@@ -339,9 +376,6 @@ form > #textarea {
     padding-top: 2%;
 }
 
-#elm2image, #elm2text {
-
-}
 /* footer */
 
 footer {
