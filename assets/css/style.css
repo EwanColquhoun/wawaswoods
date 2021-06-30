@@ -308,6 +308,47 @@ form > #textarea {
     color: #fdf9ee;
 }
 
+/* inspiration */
+
+#inspiration {
+    position: relative;
+    height: 1800px;
+    width: 100%;
+}
+#inspiration > div {
+    width: 50%;
+    height: 600px;
+    border: 1px solid #1b3d2f;
+    display: inline;
+    position: relative;
+    background-position: center;
+    overflow: hidden;
+}
+
+#elm2 {
+    width: 50%;
+    height: auto;
+    object-fit: contain;
+}
+
+.ins-float-right {
+    float: right;
+    clear: left;
+    position: absolute;
+}
+
+.ins-float-left {
+    float: left;
+    position: absolute;
+    clear: right;
+}
+
+#inspiration-one {
+   background-color: #1B3D2F;
+   text-align: center;
+}
+
+
 /* footer */
 
 footer {
