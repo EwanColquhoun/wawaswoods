@@ -194,8 +194,12 @@ h3 {
 }
 
 #about-us-text > p {
-    padding: 20px;
+    padding-left: 20px;
     max-width: 95%;
+}
+
+#about-us > h2 {
+    padding-bottom: 15px;
 }
 
 /* testimonials */
@@ -290,7 +294,6 @@ h3 {
 }
 
 #form-input {
-    float: left;
     max-width: 50%;
     height: auto;
     text-align: left;
@@ -417,7 +420,18 @@ footer > h3 {
     font-size: 140%;
 }
 
-/* For large to medium screens sizes from 1200px wide and down */
+@media screen and (max-width: 1200px){
+    iframe {
+        width: 100%;
+    }
+    #contact-map-outer {
+
+    }
+
+}
+
+
+/* For large to medium screens sizes from 950px wide and down */
 @media screen and (max-width: 950px){
 
     #menu {
@@ -443,7 +457,8 @@ footer > h3 {
 
     #about-us-text {
         padding-top: 20px;
-        width: 100vw;
+        max-width: 100%;
+        width: auto;
         font-size: initial;
     }
 
@@ -458,11 +473,61 @@ footer > h3 {
 
     #title-text {
         font-size: 350%;
+        top: 40px;
+    }
+    
+    #title-text >h3 {
+        padding: 0;
     }
 
+    #title-outer {
+        height: 250px;
+    }
 
+    #menu > li {
+        margin: 5px;
+    }
 
+    #gallery {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 300px);
+        overflow: hidden;
+    }
 
+    #gallery > img {
+        object-fit: cover;
+    }
 
+}
 
+/* For small screens sizes from 800px wide and down */
+@media screen and (max-width: 800px){
+    #gallery {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 300px);
+        overflow: auto;
+    }
 
+    #contact-text-outer li {
+        padding: 0;
+    }
+
+    #contact-text-outer {
+        height: 150px;
+        width: 100%;
+        display: block;
+        position: initial;
+        float: initial;
+        
+    }
+
+    #contact-map-inner, #contact-map-outer {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    iframe {
+        height: 300px;
+    }
+}
