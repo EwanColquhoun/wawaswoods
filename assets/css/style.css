@@ -185,8 +185,9 @@ h3 {
     float: right;
     width: 50%;
     max-height: 350px;
-    padding: 20px 20px 0px 0px;
+    margin: 20px 20px 0px 0px;
     overflow: hidden;
+    border-radius: 4%;
 }
 
 #about-us-image > img {
@@ -215,11 +216,86 @@ h3 {
 
 /* project styling */
 
-#projects > div {
-    border: 1px solid black;
+#projects div {
     width: 80%;
-    height: 600px;
+    height: auto;
     margin: auto;
+    contain: content;
+}
+
+#projects h3 {
+    padding: 60px;
+}
+
+#projects p {
+    font-size: larger;
+    position: absolute;
+    bottom: 30%;
+}
+
+#projects img {
+    max-width: 50%;
+    border-radius: 4%;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+#cots-p, #walker-p{
+    padding-left: 55%;
+    padding-right: 5%;
+}
+
+#cots-img {
+    height: auto;
+}
+
+#height-p {
+    padding-left: 5%;
+    padding-right: 55%;
+}
+
+#height-img {
+    width: 300px;
+    height: 600px;
+    object-fit: contain;
+}
+
+/* inspiration */
+
+#inspiration div {
+    border: 2px solid black;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    contain: content;
+    text-align: center;
+}
+
+#inspiration img {
+    width: 400px;
+    height: auto;
+    border-radius: 4%;
+}
+
+#inspiration p, #inspiration li {
+    font-size: larger;
+    line-height: 25px;
+    padding-right: 20px;
+}
+
+#elmtext {
+    padding-left: 51%;
+}
+
+#elmlist {
+    padding-left: 55%;
+    padding-top: 5px;
 }
 
 /* contact us styling */
@@ -249,7 +325,6 @@ h3 {
 #contact-map-inner {
     padding-right: 3%;
     width: 50%;
-    display: inline-block;
     float: right;
 }
 
@@ -308,7 +383,6 @@ h3 {
     height: 30px;
     width: 250px;
     background-color: #fdf9ee;
-    margin-left: 5px;
 }
 
 .callback-input {
@@ -340,40 +414,7 @@ h3 {
     color: #fdf9ee;
 }
 
-/* inspiration */
 
-#inspiration {
-    height: 2400px;
-    width: 100%;
-}
-
-#elmimage, #oakimage, #elm2image{
-    width: 400px;
-    height: auto;
-    display: inline-block;
-    padding: 20px;
-}
-
-#oakimage {
-    width: 500px;
-}
-
-#oaktext, #oaktext {
-    display: inline-block;
-    padding: 20px;
-}
-
-#oakimage, #oaktext {
-    float: right;
-    clear: left;
-}
-
-#elmimage, #elmtext, #elm2image, #elm2text {
-    float: left;
-    clear: right;
-    margin-left: 10%;
-    padding-top: 2%;
-}
 
 /* footer */
 
@@ -497,7 +538,58 @@ footer > h3 {
         object-fit: cover;
     }
 
+    #projects img {
+    
+        width: 100%; 
+        float: none;
+        max-width: 100%;
+    }
+
+    #projects p {
+        width: 70%;
+        bottom: 0px;
+        padding: 20px 10px;
+        margin: auto;
+        position: unset;
+    }
+
+    #height-img {
+        width:80%;
+        height: auto;
+        height: 540px;
+        object-fit: contain;
+    }
+    #projects h3 {
+        padding: 20px;
+    }
+
+    #elmimage {
+        float: none;
+        max-width: 100%;
+        width: 400px;
+        height: 652x;
+        object-fit: contain;
+        margin: auto;
+        
+
+    }
+
+    #elmtext {
+        width: 100%;
+        padding: 10px;
+    }
+
+    #elmlist {
+        padding-left: 30px;
+        padding-bottom: 20px;
+    }
+
+    #inspiration p {
+        max-width: 90%;
+        text-align: center;
+    }
 }
+
 
 /* For small screens sizes from 800px wide and down */
 @media screen and (max-width: 800px){
@@ -532,7 +624,8 @@ footer > h3 {
     }
 
     #form-input {
-        margin-left: 2%;
+        text-align: left;
+        padding: 2px;
         display: initial;
     }
 
@@ -560,7 +653,7 @@ footer > h3 {
         display: block;
         position: unset;
         margin: auto;
-        margin-top: 50px;
+        margin-top: 25px;
     }
 }
 
