@@ -19,6 +19,7 @@ a {
 header {
     height: 100px;
     background-color: #1a3c2e;
+    width: 100%;
 }
 /* headings and logo */
 
@@ -239,15 +240,6 @@ h3 {
     display: inline-float;
     box-sizing: border-box;
 }
-
-#contact-map-outer {
-    width: 50%;
-    height: 450px;
-    float: right;
-    position: absolute;
-    display: inline;
-    box-sizing: border-box;
-}
     
 #contact-text-outer li {
     padding: 35px;
@@ -256,6 +248,9 @@ h3 {
 
 #contact-map-inner {
     padding-right: 3%;
+    width: 50%;
+    display: inline-block;
+    float: right;
 }
 
 #email-icon {
@@ -281,10 +276,12 @@ h3 {
 }
 
 #message {
-    float: right;
-    max-width: 100%;
+    max-width: 50%;
     max-height: 200px;
     background-color: #fdf9ee;
+    display: inline-block;
+    position: absolute;
+    right: 8%;
 }
 
 ::placeholder, #message{
@@ -305,14 +302,6 @@ h3 {
 
 #form-input > div {
     padding: 15px;
-}
-
-form > #textarea {
-    display: inline-block;
-    position: absolute;
-    right: 20px;
-    max-width: 50%;
-    height: auto;
 }
 
 .input {
@@ -424,11 +413,21 @@ footer > h3 {
     iframe {
         width: 100%;
     }
-    #contact-map-outer {
-
+    
+    #form-input {
+        margin-left: 2%;
+        text-align: center;
     }
 
+    #contact-map-outer, #contact-map-inner {
+        padding: 10px;
+    }
+
+    #message {
+        width: 30%;
+    }
 }
+
 
 
 /* For large to medium screens sizes from 950px wide and down */
@@ -521,13 +520,47 @@ footer > h3 {
         
     }
 
-    #contact-map-inner, #contact-map-outer {
+    #contact-map-inner {
         width: 100%;
         height: auto;
         display: block;
+        padding: unset;
     }
 
     iframe {
         height: 300px;
     }
+
+    #form-input {
+        margin-left: 2%;
+        display: initial;
+    }
+
+    #form {
+        object-fit: contain;
+        height: 700px;
+    }
+
+    #message {
+        height: 150px;
+        width: 90%;
+        display: block;
+        overflow: auto;
+        position: unset;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 90%;
+    }
+
+    #design-query-form > h2 {
+        padding-bottom: 0;
+    }
+
+    #submit {
+        display: block;
+        position: unset;
+        margin: auto;
+        margin-top: 50px;
+    }
 }
+
