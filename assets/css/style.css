@@ -469,7 +469,29 @@ footer > h3 {
     }
 }
 
+/* safari specific styling */
 
+@media not all and (min-resolution:.001dpcm) { @media {
+
+    .safari_only, #project-two-container, #projects div { 
+            min-height: 650px;
+            overflow: hidden;
+    }
+
+    .safari_only, #height-p {
+        padding-left: 15%;
+        padding-right: 45%;
+    }
+
+    .safari_only, #projects p {
+        position: unset;
+    }
+
+    .safari_only, #inspiration div {
+        min-height: 600px;
+        overflow: hidden;
+    }
+}}
 
 /* For large to medium screens sizes from 950px wide and down */
 @media screen and (max-width: 950px){
