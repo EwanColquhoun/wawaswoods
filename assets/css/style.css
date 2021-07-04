@@ -10,6 +10,7 @@
 body { 
    background-color: #fdf9ee ;
    font-family: Lato, sans-serif;
+   scroll-behavior: smooth;
 }
 
 a {
@@ -221,6 +222,7 @@ h3 {
     height: auto;
     margin: auto;
     contain: content;
+    line-height: 23px;
 }
 
 #projects h3 {
@@ -269,12 +271,13 @@ h3 {
 /* inspiration */
 
 #inspiration div {
-    border: 2px solid black;
     width: 80%;
     height: auto;
     margin: auto;
     contain: content;
     text-align: center;
+    line-height: 23px;
+    font-size: larger;
 }
 
 #inspiration img {
@@ -283,19 +286,33 @@ h3 {
     border-radius: 4%;
 }
 
-#inspiration p, #inspiration li {
-    font-size: larger;
-    line-height: 25px;
-    padding-right: 20px;
-}
-
 #elmtext {
     padding-left: 51%;
+    padding-right: 20px;
 }
 
 #elmlist {
     padding-left: 55%;
-    padding-top: 5px;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+#oaktext {
+    padding-left: 30px;
+    padding-right: 60%;
+    text-align: left;
+    margin-top: 100px;
+}
+
+#oakimage {
+    min-width: 55%;
+    margin-top: 100px;
+}
+
+#elm-two-text, #elm-two-list {
+    padding-left: 51%;
+    padding-right: 20px;
+    padding-top: 10px;
 }
 
 /* contact us styling */
@@ -454,12 +471,18 @@ footer > h3 {
     color: rgba(27, 61, 47, 0.6);
     position: absolute;
     display: inline-block;
+    height: auto;
+    width: 50px;
     left: 2%;
     bottom: 12%;
     font-size: 250%;
     position: fixed;
     border-radius: 50%;
     border: rgba(253, 249, 238, 0.6);
+}
+
+#arrow:hover {
+    color: #5A8155
 }
 
 @media screen and (max-width: 1200px){
