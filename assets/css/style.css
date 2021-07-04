@@ -172,6 +172,7 @@ h3 {
     height: 450px;
     margin: 20px auto;
     width: 100%;
+    display: contents;
 }
 
 #about-us-text {
@@ -180,6 +181,7 @@ h3 {
     width: 50%;
     font-size: large;
     max-width: 45%;
+    padding-left: 20px;
 }
 
 #about-us-image {
@@ -208,12 +210,41 @@ h3 {
 /* testimonials */
 
 #testimonials {
-    height: 600px;
+    max-height: 600px;
     padding: 40px;
     width: 100%;
     margin: 0 auto;
+    display: flow-root;
+    line-height: 23px;
+    justify-items: center;
     box-sizing: border-box;
 }
+
+#testimonials div {
+    float: left;
+    border: 5px outset rgba(27, 61, 47, 0.6);
+    box-shadow: grey;
+    border-radius: 20px;
+    width: 25%;
+    min-height: 300px;
+    text-align: center;
+    margin: 4%;
+    font-size: larger;
+    font-style: italic;
+    box-sizing: border-box;
+    line-height: 23px;
+    object-fit: contain;
+}
+
+#testimonials h4 {
+    padding-top: 20px;
+    text-align: center;
+}
+
+#testimonials h6 {
+    padding: 20px 5px 0px 5px;
+}
+
 
 /* project styling */
 
@@ -302,6 +333,7 @@ h3 {
     padding-right: 60%;
     text-align: left;
     margin-top: 100px;
+    padding-bottom: 35px;
 }
 
 #oakimage {
@@ -474,14 +506,14 @@ footer > h3 {
     height: auto;
     width: 50px;
     left: 2%;
-    bottom: 12%;
+    bottom: 8%;
     font-size: 250%;
     position: fixed;
     border-radius: 50%;
-    border: rgba(253, 249, 238, 0.6);
+    border: 2px solid rgba(253, 249, 238, 0.6);
 }
 
-#arrow:hover {
+#up-arrow:hover {
     color: #5A8155
 }
 
@@ -568,6 +600,18 @@ footer > h3 {
         margin-top: 2px;
     }
 
+    #testimonial-one, #testimonial-two, #testimonial-three {
+        float: none;
+        border: 5px outset rgba(27, 61, 47, 0.6);
+        border-radius: 20px;
+        width: 80%;
+        height: 150px;
+        text-align: center;
+        margin: 25px auto;
+        object-fit: contain;
+        display: contents;
+    }
+
     #title-text {
         font-size: 350%;
         top: 40px;
@@ -620,25 +664,31 @@ footer > h3 {
         padding: 20px;
     }
 
-    #elmimage {
+    #elmimage, #oakimage {
         float: none;
         max-width: 100%;
         width: 400px;
         height: 652x;
         object-fit: contain;
         margin: auto;
-        
-
     }
 
-    #elmtext {
+    #elm-two-image {
+        float: none;
+        max-width: 100%;
+        object-fit: contain;
+        margin: auto;
+    }
+    #elmtext, #elm-two-text, #oaktext {
         width: 100%;
-        padding: 10px;
+        padding: 20px;
+        margin: 0 auto;
     }
 
-    #elmlist {
+    #elmlist, #elm-two-list {
         padding-left: 30px;
         padding-bottom: 20px;
+        text-align: left;
     }
 
     #inspiration p {
