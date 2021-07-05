@@ -18,7 +18,7 @@ a {
 }
 
 header {
-    height: 100px;
+    height: 90px;
     background-color: #1a3c2e;
     width: 100%;
 }
@@ -251,15 +251,17 @@ h3 {
 /* project styling */
 
 #projects h3 {
-    padding: 60px;
+    padding: 30px;
+    background-color: rgba(27, 61, 47, 0.6);
+    color: #fdf9ee;
+    text-transform: uppercase;
 }
 
 #project-one-container, #project-two-container, #project-three-container {
     display: block;
-    width: 100vw;
+    width: 100%;
     min-height: 600px;
-    height: auto;
-    border: 1px solid black;    
+    height: auto;   
     position: relative;
     box-sizing: border-box;
 }
@@ -282,8 +284,8 @@ h3 {
 
 #cots-p, #walker-p {
     position: absolute;
-    top: 200px;
-    right: 20px;
+    top: 150px;
+    right: 30px;
 }
 #height-p {
     padding-left: 5%;
@@ -301,6 +303,7 @@ h3 {
     max-height: 700px;
     object-fit: contain;
     border-radius: 40px;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.75);
 }
 
 /* projects slideshow */
@@ -312,6 +315,7 @@ h3 {
     height: 1em;
 	padding-top: 39%; /*That helps bring the labels down*/
 	position: relative;
+    margin-top: 10px;
 	margin-left: 3%;
 	box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.75);
     display: inline-block;
@@ -398,19 +402,29 @@ On click the images will be displayed at normal size to complete the effect
 #inspiration div {
     width: 80%;
     height: auto;
-    margin: 100px auto;
+    margin: 50px auto;
     contain: content;
     text-align: left;
     line-height: 23px;
     font-size: larger;
 }
 
+#oak-div {
+    min-height: 450px;
+}
+
 #inspiration img {
-    width: 400px;
+    width: 300px;
     height: auto;
     border-radius: 4%;
 }
 
+#inspiration h3 {
+    padding: 30px;
+    background-color: rgba(27, 61, 47, 0.6);
+    color: #fdf9ee;
+    text-transform: uppercase;
+}
 #elmtext {
     padding-left: 55%;
     padding-right: 20px;
@@ -569,9 +583,8 @@ On click the images will be displayed at normal size to complete the effect
 
 footer {
     height: 180px;
+    width: 100%;
     text-align: center;
-    position: static;
-    bottom: 1px;
 }
 
 .social-networks {
@@ -639,26 +652,24 @@ footer > h3 {
 /* safari specific styling */
 
 @media not all and (min-resolution:.001dpcm) { @media {
-
-    .safari_only, #project-two-container, #projects div { 
-            min-height: 650px;
-            overflow: hidden;
-    }
-
     .safari_only, #height-p {
         padding-left: 15%;
         padding-right: 45%;
     }
 
-    .safari_only, #projects p {
-        position: unset;
+    #elm-two-div {
+        min-height: 880px;
     }
 
-    .safari_only, #inspiration div {
-        min-height: 600px;
-        overflow: hidden;
+    .safari_only, .slider, #slider_two {
+        max-height: 450px;
     }
-}}
+
+    .safari_only, #slider_two {
+        width: 40%;
+        margin-left: 3%;
+    }
+}
 
 /* For large to medium screens sizes from 950px wide and down */
 @media screen and (max-width: 950px){
@@ -671,7 +682,7 @@ footer > h3 {
         line-height: initial;
     }
     #logo {
-        font-size: 250%;
+        font-size: 200%;
         line-height: initial;
         margin: auto;
     }
@@ -757,6 +768,7 @@ footer > h3 {
         position: unset;
         float: unset;
         margin: auto;
+        margin-top: 10px;
     }
     #projects h3 {
         padding: 20px;
@@ -764,6 +776,7 @@ footer > h3 {
 
     .slider, #slider_two {
         margin: auto;
+        margin-top: 10px;
         display: block;
     }
 
@@ -854,11 +867,11 @@ footer > h3 {
     }
 
     #form-input {
-        text-align: left;
+        text-align: center;
         padding: 2px;
         display: initial;
     }
-
+    
     #form {
         object-fit: contain;
         height: 700px;
@@ -897,4 +910,5 @@ footer > h3 {
         padding-top: 325px;
     }
 
+}
 }
