@@ -261,6 +261,7 @@ h3 {
     height: auto;
     border: 1px solid black;    
     position: relative;
+    box-sizing: border-box;
 }
 #projects p {
     font-size: larger;
@@ -281,7 +282,7 @@ h3 {
 
 #cots-p, #walker-p {
     position: absolute;
-    top: 20px;
+    top: 200px;
     right: 20px;
 }
 #height-p {
@@ -294,9 +295,10 @@ h3 {
 #height-img {
     position: absolute;
     right: 100px;
-    top: 20px;
-    width: 240px;
-    height: 600px;
+    top: -50px;
+    width: auto;
+    height: auto;
+    max-height: 700px;
     object-fit: contain;
     border-radius: 40px;
 }
@@ -306,6 +308,7 @@ h3 {
 .slider {
 	width: 50%; /*Same as width of the large image*/
 	/*Instead of height we will use padding*/
+    max-width: 1000px;
     height: 1em;
 	padding-top: 39%; /*That helps bring the labels down*/
 	position: relative;
@@ -736,30 +739,39 @@ footer > h3 {
         object-fit: cover;
     }
 
-    #projects img {
-    
-        width: 100%; 
-        float: none;
-        max-width: 100%;
-    }
-
     #projects p {
-        width: 100%;
+        display: block;
+        width: 80%;
         bottom: 0px;
         padding: 20px 0px;
-        margin: auto;
+        margin: 70px auto;
         position: unset;
     }
 
     #height-img {
-        width:80%;
+        width:auto;
         height: auto;
-        height: 540px;
+        max-height: 540px;
         object-fit: contain;
+        display: block;
+        position: unset;
+        float: unset;
+        margin: auto;
     }
     #projects h3 {
         padding: 20px;
     }
+
+    .slider, #slider_two {
+        margin: auto;
+        display: block;
+    }
+
+    #slider_two {
+        height: auto;
+        width: fit-content;
+    }
+
 
     #elmimage, #oakimage {
         float: none;
@@ -805,6 +817,15 @@ footer > h3 {
         overflow: auto;
     }
 
+    #projects p {
+        margin-top: 70px;
+    }
+
+    .slider label {
+        width: 40px;
+        height: 40px;
+    }
+    
     #contact-us li {
         padding: 0px;
     }
@@ -866,3 +887,14 @@ footer > h3 {
     }
 }
 
+
+/* For large to medium screens sizes from 500px wide and down */
+@media screen and (max-width: 500px){
+    .slider, #slider_two {
+        width: 80%;
+        max-width: 100%;
+        margin-bottom: 50px;
+        padding-top: 325px;
+    }
+
+}
