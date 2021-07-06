@@ -13,6 +13,11 @@ body {
    scroll-behavior: smooth;
 }
 
+body > section {
+    max-width: 2000px;
+    margin: auto;
+}
+
 a {
     text-decoration: none;
 }
@@ -141,6 +146,8 @@ h3 {
     grid-template-rows: repeat(2, 300px);
     grid-gap: 0px;
     height: 600px;
+    max-width: 2000px;
+    margin: auto;
 }
 
 #gallery > img {
@@ -167,13 +174,6 @@ h3 {
 
 
 /* about us */
-
-#about-us {
-    height: 450px;
-    margin: 20px auto;
-    width: 100%;
-    display: contents;
-}
 
 #about-us-text {
     float: left;
@@ -209,7 +209,7 @@ h3 {
 
 /* testimonials */
 
-#testimonials {
+#testimonials, #about-us {
     max-height: 1800px;
     padding: 40px;
     width: 100%;
@@ -483,6 +483,7 @@ On click the images will be displayed at normal size to complete the effect
 }
 #contact-us li {
     padding: 20px;
+    list-style-type: none;
 }
 
 #contact-map-inner {
@@ -600,8 +601,8 @@ footer {
 
 .social-networks i {
     font-size: 140%;
-    padding: 2%;
-    margin: 1%;
+    padding: 30px;
+    margin: 15px;
     color: #1B3D2F;
 }
 
@@ -688,6 +689,10 @@ footer > h3 {
         margin: auto;
     }
 
+    #about-us {
+        width: 100%;
+        padding: unset;
+    }
     #about-us-image {
         float: left;
         clear: both;
@@ -711,6 +716,7 @@ footer > h3 {
     #testimonials {
         margin-top: 2px;
         min-height: fit-content;
+        padding: unset;
     }
 
     #testimonials div {
