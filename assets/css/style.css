@@ -264,6 +264,7 @@ h3 {
     height: auto;   
     position: relative;
     box-sizing: border-box;
+    margin-bottom: 70px;
 }
 #projects p {
     font-size: larger;
@@ -669,7 +670,7 @@ footer > h3 {
         width: 40%;
         margin-left: 3%;
     }
-}
+}}
 
 /* For large to medium screens sizes from 950px wide and down */
 @media screen and (max-width: 950px){
@@ -770,6 +771,7 @@ footer > h3 {
         margin: auto;
         margin-top: 10px;
     }
+
     #projects h3 {
         padding: 20px;
     }
@@ -803,6 +805,7 @@ footer > h3 {
         margin: auto;
         display: block;
     }
+
     #elmtext, #elm-two-text, #oaktext {
         width: 100%;
         padding: 20px;
