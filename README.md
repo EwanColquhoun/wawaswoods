@@ -2,13 +2,13 @@
 
 Wawas Woods is a small business set up to create custom made wooden items. The site is targeted at the prospective buyer who is in the market for something tailored to their exacting requirements. Wawas Woods will be useful to help guide people throught from project inception to delivery.
 
-Welcome to the journey through [Wawas Woods](https://ewancolquhoun.github.io/wawaswoods/)
+Welcome to the journey through <a href="index.html" target=_blank>Wawas Woods</a>
 
 ![Wawas Woods responsive design](assets/images/responsive.png)
 
 
 # Features
----
+
 Wawas Woods site is set up to be welcoming and easy to use. It contains many features that the user would be probably be familiar with. The overall feel of the website is intended to be inviting and not intimidating to encourage the user to explore further. <br> 
 The color scheme, dark green and cream was chosen to contrast with the tan color of the wood in the materials and also provides a welcoming look to the site.
 
@@ -85,5 +85,25 @@ The color scheme, dark green and cream was chosen to contrast with the tan color
     * Particularly of interest to those whose projects are underway.
 
 # Testing
----
+
+link to w3 validator
+link to css (jigsaw) validator
+devices and platforms tested on
+interesting bugs - safari
+unfixed bugs
+
+# Deployment
+
+describe the process of getting the project to git hub.
+link to the live link.
+
+# Credits
+
+## Content
+
+text, font, icons, youtube tutorials etc
+## Media
+where are the photos from
+
+# Additional Notes
 
