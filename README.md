@@ -102,6 +102,8 @@ link to the live link.
 ## Content
 
 text, font, icons, youtube tutorials etc
+
+form validation - youtube - https://www.youtube.com/watch?v=fNcJuPIZ2WE
 ## Media
 where are the photos from
 
