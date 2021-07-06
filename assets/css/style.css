@@ -264,7 +264,7 @@ h3 {
     height: auto;   
     position: relative;
     box-sizing: border-box;
-    margin-bottom: 70px;
+    margin-bottom: 83px;
 }
 #projects p {
     font-size: larger;
@@ -513,7 +513,7 @@ On click the images will be displayed at normal size to complete the effect
     box-sizing: border-box;
     color: #fdf9ee;
     margin: 0 auto;
-    background-color: rgba(27, 61, 47);
+    background-color: rgba(27, 61, 47, 0.6);
     position: relative;
 }
 
@@ -524,6 +524,7 @@ On click the images will be displayed at normal size to complete the effect
     display: inline-block;
     position: absolute;
     right: 8%;
+    border-radius: 10px;
 }
 
 ::placeholder, #message{
@@ -550,6 +551,7 @@ On click the images will be displayed at normal size to complete the effect
     height: 30px;
     width: 250px;
     background-color: #fdf9ee;
+    border-radius: 10px;
 }
 
 .callback-input {
@@ -573,6 +575,7 @@ On click the images will be displayed at normal size to complete the effect
     position: absolute;
     left: 45%;
     bottom: 15px;
+    border-radius: 10px;
 }
 
 #submit:hover {
