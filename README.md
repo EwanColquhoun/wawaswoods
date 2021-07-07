@@ -83,29 +83,37 @@ The color scheme, dark green and cream was chosen to contrast with the tan color
     * This would incorporate an e-commerce platform and an enhanced gallery page.
 * An option to live stream the workshop.
     * Particularly of interest to those whose projects are underway.
+* Introduce swipe actions for use on mobile devices for the project sliders.
 
-# Testing
+# Testing (not complete)
 
-link to w3 validator
-link to css (jigsaw) validator
-devices and platforms tested on
-interesting bugs - safari
+link to w3 validator https://validator.w3.org/
+link to css (jigsaw) validator  https://jigsaw.w3.org/css-validator/
+devices and platforms tested on 
+interesting bugs - safari, whilst testing i fould that two end paragraph element tags were not recognised. After further investigation it appeared that the UL element inside the paragraph was conflicting and had hidden the end paragraph tags. Moving the UL outside the paragraph solved this bug.
+  
 unfixed bugs
+![Testing results image](assets/images/csstesting-results.png)
 
-# Deployment
+# Deployment (not complete)
 
 describe the process of getting the project to git hub.
 link to the live link.
 
-# Credits
+# Credits (not complete)
 
-## Content
+### Content
 
-text, font, icons, youtube tutorials etc
+text, font https://fonts.google.com/, icons https://fontawesome.com/, youtube tutorials etc
 
 form validation - youtube - https://www.youtube.com/watch?v=fNcJuPIZ2WE
-## Media
-where are the photos from
 
-# Additional Notes
+Project sliders - https://thecodeplayer.com/walkthrough/css3-image-slider-with-stylized-thumbnails
+
+safari specific styling - slack overflow - https://stackoverflow.com/
+
+### Media
+where are the photos from, me!
+
+# Additional Notes (not complete)
 
