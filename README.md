@@ -95,6 +95,8 @@ interesting bugs - safari, whilst testing i fould that two end paragraph element
 unfixed bugs
 ![Testing results image](assets/images/csstesting-results.png)
 
+lighthouse in devtools
+
 # Deployment (not complete)
 
 describe the process of getting the project to git hub.
@@ -114,6 +116,7 @@ safari specific styling - slack overflow - https://stackoverflow.com/
 
 ### Media
 where are the photos from, me!
+media compression https://compressor.io/
 
 # Additional Notes (not complete)
 
