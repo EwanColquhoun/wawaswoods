@@ -11,35 +11,37 @@
 <body>
     <a id="inspirationtop"></a>
     <header>
-        <a href="index.html">
+        <a href="index.html" aria-label="Go to the home page">
             <h1 id="logo">Wawas Woods</h1>
         </a>
         <nav>
             <ul id="menu">
                 <li>
-                    <a href="index.html" class="navlink">Home</a>
+                    <a href="index.html" class="navlink" aria-label="Go to the Home page ">Home</a>
                 </li>
                 <li>
-                    <a href="projects.html" class="navlink">Projects</a>
+                    <a href="projects.html" class="navlink" aria-label="Go to the Projects page">Projects</a>
                 </li>
                 <li>
-                    <a href="inspiration.html" id="active" class="navlink">Inspiration</a>
+                    <a href="inspiration.html" id="active" class="navlink" aria-label="Go to the Inspiration page">Inspiration</a>
                 </li>
                 <li>
-                    <a href="contact.html" class="navlink">Contact</a>
+                    <a href="contact.html" class="navlink" aria-label="Go to the Contact page">Contact</a>
                 </li>
             </ul>
         </nav>
     </header>
 
-    <section id="inspiration">
+    <section id="inspiration" aria-label="Inspiration">
         <h2>Inspiration</h2>
         <h3>Elm</h3>
-        <div>
+        <div id="elm-one-div" aria-labelledby="elmimage elmtext elmlist">
             <img class="float-left" id="elmimage" src="assets/images/elm1.jpg" alt="A piece of elm wood">
-            <p id="elmtext">This wonderful piece of elm has the potential for big things. It has a lovely void in it, best utilised with a resin fill to add contrast and strength.
+            <p id="elmtext">
+                This wonderful piece of elm has the potential for big things. It has a lovely void in it, best utilised with a resin fill to add contrast and strength.
                 It could be then turned into a number of things. With its shape it would be best suited for a modern live edge coffee table, whether with wooden or thin metal legs. 
                 It is roughly 4cm x 40cm x 100cm in dimensions. <br><br>The main steps in contructing a project like this would be;
+            </p>
                 <ul id="elmlist">
                     <li>Remove all dead material and bark from around the edges and the void</li>
                     <li>Plane to just above the final thickness</li>
@@ -48,14 +50,13 @@
                     <li>Sand all over gradually increasing the grit to achieve desired result</li>
                     <li>Prepare and affix the legs</li>
                     <li>Apply the finish and repeat until the desired level of sheen is reached</li>
-                </ul>
-                
-            </p>
+                </ul>  
         </div>
         <h3>Oak</h3>
-        <div id="oak-div">
+        <div id="oak-div" aria-labelledby="oakimage oaktext" >
             <img class="float-right" id="oakimage" src="assets/images/oakslabs.jpg" alt="Two pieces of oak">
-        <p id="oaktext">This lovely pair of chunky oak slabs have many features like, an unusual shape, vivid grain and a lovely feature crack.
+        <p id="oaktext">
+            This lovely pair of chunky oak slabs have many features like, an unusual shape, vivid grain and a lovely feature crack.
             These would make a fetching pair of matching side tables, even incorporating a coloured resin to help strengthen and enhance the crack. An alternative
             to the resin could be the use of bow ties to join the two sides of the crack giving strength and an aesthetic impact. <br>
             If you wanted to push the boundaries you could incorporate some under surface led lighting and maybe even 
@@ -63,11 +64,13 @@
         </p>
         </div>
         <h3>Elm</h3>
-        <div id="elm-two-div">
+        <div id="elm-two-div" aria-labelledby="elm-two-image elm-two-text elm-two-list">
             <img class="float-left" id="elm-two-image" src="assets/images/elm2.jpg" alt="A tall thin piece of elm wood">
-        <p id="elm-two-text"> When we saw this lovely piece of elm in the sawmill I knew it had great potential. Our first thought was for a desk top. Whilst it looks a bit
+        <p id="elm-two-text"> 
+            When we saw this lovely piece of elm in the sawmill I knew it had great potential. Our first thought was for a desk top. Whilst it looks a bit
             narrow in the present form, with a bit of wood-worker's magic we believe that this could be a head turner in any office. 
             Rough dimensions of this piece are 3cm x 35cm x 190cm.<br> Simplistic construction method:
+        </p>
             <ul id="elm-two-list">
                 <li>Mark out and cut the piece into two halves, lengthways.</li>
                 <li>Make resin mould and complete pour.</li>
@@ -76,7 +79,6 @@
                 <li>Craft and join legs to top.</li>
                 <li>Apply a finishing product, oil, wax, or a combination of both!</li>
             </ul>
-        </p>
         </div>
     </section>
 

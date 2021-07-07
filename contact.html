@@ -11,48 +11,46 @@
 <body>
     <a id="contacttop"></a>
     <header>
-        <a href="index.html">
+        <a href="index.html" aria-label="Go to the home page">
             <h1 id="logo">Wawas Woods</h1>
         </a>
         <nav>
             <ul id="menu">
                 <li>
-                    <a href="index.html" class="navlink">Home</a>
+                    <a href="index.html" class="navlink" aria-label="Go to the Home page ">Home</a>
                 </li>
                 <li>
-                    <a href="projects.html" class="navlink">Projects</a>
+                    <a href="projects.html" class="navlink" aria-label="Go to the Projects page">Projects</a>
                 </li>
                 <li>
-                    <a href="inspiration.html" class="navlink">Inspiration</a>
+                    <a href="inspiration.html" class="navlink" aria-label="Go to the Inspiration page">Inspiration</a>
                 </li>
                 <li>
-                    <a href="contact.html" id="active" class="navlink">Contact</a>
+                    <a href="contact.html" id="active" class="navlink" aria-label="Go to the Contact page">Contact</a>
                 </li>
             </ul>
         </nav>
     </header>
 
-    <section id="contact-us">
+    <section id="contact-us" aria-labelledby="contact-text contact-map">
         <h2>Contact Us</h2>
-        <div id="contact-text-outer">
-            <ul>
-                <li>The Workshop, <br> Edinburgh
+        <div id="contact-text">
+            <ul aria-label="Contact details for Wawas Woods">
+                <li title="Address">The Workshop, <br> Edinburgh
                 </li>
-                <li>+44 123 456 789
+                <li title="Telephone number">+44 123 456 789
                 </li>
-                <li>wawaswoods@outlook.com <a class="email-icon" href="mailto:wawaswoods@outlook.com" target="_blank" rel="noopener noreferrer"><i id="email-icon" class="fas fa-envelope"></i></a>
+                <li title="E-mail address">wawaswoods@outlook.com<a class="email-icon" href="mailto:wawaswoods@outlook.com" target="_blank" rel="noopener noreferrer" aria-label="Click here to send us an e-mail"><i id="email-icon" class="fas fa-envelope"></i></a>
                 </li>
             </ul>
         </div>
-        <div id="contact-map-inner">
+        <div id="contact-map">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6442.099025194258!2d-3.1657063163116725!3d55.94604663930337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4887b884112f22b9%3A0x218a466c41934cf0!2sArthur&#39;s%20Seat!5e0!3m2!1sen!2suk!4v1624962821684!5m2!1sen!2suk" 
                 style="border-radius: 15px;" allowfullscreen="" loading="lazy"></iframe>
         </div>
-      
     </section>
 
-    <!-- Need to find a way to test the below form-->
-    <section id="form">
+    <section id="form" aria-label="Design Query form">
         <div id="design-query-form">
             <h2>Design Query</h2>
             <form action="formdestination.html" method="get">
@@ -67,22 +65,20 @@
                     </div>
                     <div>
                     <label for="phone" id="phone-input">Phone:</label>
-                    <input type="text" id="phone" class="input" name="phone">
+                    <input type="tel" id="phone" class="input" name="phone" pattern="[+][0-9]{8-15}">
                     </div>
                     <div>
                     <label for="callback" id="callback-input">Request a callback:</label>
                     <input type="checkbox" id="callback" class="callback-input" name="callback">
                     </div>
                 </div>
-                
-                <textarea id="message" name="message" rows="15" cols="60" placeholder="Insert your message here"></textarea>
-                
+                <textarea aria-label="Textbox" id="message" name="message" rows="15" cols="60" placeholder="Insert your message here"></textarea>
                 <input type="submit" value="Submit" id="submit">
             </form>
         </div>
     </section>
 
-    <footer>
+    <footer aria-label="Footer">
         <a href="#contacttop" id="up-arrow" aria-label="Scroll to top"><i id="arrow" class="fas fa-arrow-circle-up"></i></a>
         <ul class="social-networks">
             <li><a href="https://www.facebook.com/wawa.woods.3" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook-f socials"></i></a></li>
