@@ -1,37 +1,63 @@
 # **Wawas Woods**
 
-Wawas Woods is a small business set up to create custom made wooden items. The site is targeted at the prospective buyer who is in the market for something tailored to their exacting requirements. Wawas Woods will be useful to help guide people throught from project inception to delivery.
+Wawas Woods is a small business set up to create custom made wooden items. The site is targeted at the prospective buyer who is in the market for something tailored to their exacting requirements. Wawas Woods will be useful to help guide people through from project inception to delivery.
 
 Welcome to the journey through <a href="index.html" target=_blank>Wawas Woods</a>
 
 ![Wawas Woods responsive design](assets/images/responsive.png)
 
+# User Stories (not complete)
+
+As a user...
+
+# Wireframes (not complete)
+
+The wireframes for Wawas Woods were produced in [Balsamiq](https://balsamiq.com). There are frames for a full width display and a small mobile device. The final site varies slightly from the wireframes due to developments that occured during the creation process. 
+
+image of wireframes. 
 
 # Features
 
-Wawas Woods site is set up to be welcoming and easy to use. It contains many features that the user would be probably be familiar with. The overall feel of the website is intended to be inviting and not intimidating to encourage the user to explore further. <br> 
-The color scheme, dark green and cream was chosen to contrast with the tan color of the wood in the materials and also provides a welcoming look to the site.
+Wawas Woods site is set up to be welcoming and easy to use. It contains many features that the user would probably be familiar with, such as a navigation bar and contact form. The overall feel of the website is intended to be inviting and not intimidating to encourage the user to explore further. 
+
+#### Home
+  * [Navigation menu](#nav-menu)
+  * [Gallery](#gallery)
+  * [Testimonials](#testimonials)
+  * [Footer](#footer)
+#### [Projects](#projects)
+  * [Dolls Cots]
+  * [Height Chart]
+  * [Walker]
+#### [Inspiration](#inspiration)
+  * [Elm](#inspiration)
+  * [Oak](#inspiration)
+  * [Elm](#inspiration)
+#### [Contact Us](#contact-us)
+  * [Contact details](#contact-us)
+  * [Location map](#contact-us)
+  * [Design Query form](#contact-us)
 
 ## Existing Features  
-  * ### Styling
+  * ### Styling 
     * The color scheme, dark green and cream was chosen to contrast with the tan color of the wood in the materials and also provides a welcoming look to the site.
     * To aid with the inviting feel of the site a cursive style was chosen for the headings and sans-serif for the text body. The font chosen were; Caveat and Lato.
 
-  * ### Navigation Menu
+  * ### <a name="nav-menu">Navigation menu</a>
 
     * Sited at the top of all the pages in the site It is fully responsive and contains links to all the pages of the site to enable ease of navigation in one convenient location.
     * The logo is clickable with a link back to the home page for enhanced UX.
 
 ![Navigation bar image](assets/images/navbar.png)
 
-  * ### Gallery
+  * ### <a name="gallery">Gallery</a>
 
       * Located on the home page beneath the title section. It was intended to make the title section relatively plain to enable a focus on the images in the gallery.
       * A Responsively stlyed grid of images of past projects to give the user the idea of what is possible. The images are from the assets folder and have all been taken by the owner.
 
 ![Gallery image](assets/images/gallery.png)
 
-  * ### About Us section
+  * ### <a name="about-us">About Us</a>
 
     * The About Us section lets the user know what Wawas Woods is and who we are. 
     * The combination of a family picture and the text will draw the user in further by instilling a confidence that the project will be taken care off by a small family business.
@@ -39,14 +65,14 @@ The color scheme, dark green and cream was chosen to contrast with the tan color
 
 ![About-Us image](assets/images/about-us.png)
 
-  * ### Testimonials section
+  * ### <a name="testimonials">Testimonials</a>
 
     * The testimonials section provides the user with some feeback from previous clients. There are three testimonials displayed giving a name, project name and some text.
     * They are styled with a box shadow to 'detach' them from the site to instill a sense of impartiality in th user.
 
 ![Testimonials section image](assets/images/testimonials.png)
 
-* ### Footer
+* ### <a name="footer">Footer</a>
     
     * Contains social media links. To enhance the UX the links open in other tabs
     * The social medial presence will help the user with their research into Wawas Woods and will also encourage them to connect with Wawas Woods on social media.
@@ -54,7 +80,7 @@ The color scheme, dark green and cream was chosen to contrast with the tan color
     
 ![Footer image](assets/images/footer.png)
 
-* ### Projects section
+* ### <a name="projects">Projects</a>
 
     * The projects page give the user an idea of the recent projects that have been worked on. It also shows a number of different wood working techinques and finishes to help inspire the user's design.
     * There are images of the recent projects. To help enhance the UX two slideshows have been added to allow the user to see more images of two of the pieces.
@@ -62,13 +88,13 @@ The color scheme, dark green and cream was chosen to contrast with the tan color
 
 ![Projects page image](assets/images/projects2.png)
 
-* ### Inspiration section
+* ### <a name="inspiration">Inspiration</a>
 
     * The inspiration page is mainly there to demonstrate how a project starts and what is required to transform it into a finished project. It should inspire the user with the images of unfinished wood and get the user to imagine how that would look as a finished product.
 
 ![Inspiration page image](assets/images/inspiration.png)
 
-* ### Contact Us section
+* ### <a name="contact-us">Contact Us</a>
 
     * This section should complete the online journey for the user. It has a map (location of real life workshop not shown due to privacy reasons), address, phone number and email address details.
     * In case the user would like to contact Wawas Woods directly there is an e-mail link icon. It opens the users default email provider with an email addressed to Wawas Woods.
@@ -96,6 +122,8 @@ unfixed bugs
 ![Testing results image](assets/images/csstesting-results.png)
 
 lighthouse in devtools
+
+Beta testing with peers.
 
 # Deployment (not complete)
 
