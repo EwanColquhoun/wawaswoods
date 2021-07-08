@@ -585,6 +585,16 @@ iframe {
     color: #fdf9ee;
 }
 
+#form-destination-text {
+    padding: 10% 20% 10% 20%;
+    font-weight: lighter;
+}
+
+#form-destination-footer {
+    position: fixed;
+    bottom: 0%;
+}
+
 /* footer */
 
 footer {
