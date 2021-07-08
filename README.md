@@ -20,23 +20,23 @@ image of wireframes.
 
 Wawas Woods site is set up to be welcoming and easy to use. It contains many features that the user would probably be familiar with, such as a navigation bar and contact form. The overall feel of the website is intended to be inviting and not intimidating to encourage the user to explore further. 
 
-#### Home
+#### [Home](#nav-menu)
   * [Navigation menu](#nav-menu)
   * [Gallery](#gallery)
   * [Testimonials](#testimonials)
   * [Footer](#footer)
 #### [Projects](#projects)
-  * [Dolls Cots]
-  * [Height Chart]
-  * [Walker]
+  * Dolls Cots
+  * Height Chart
+  * Walker
 #### [Inspiration](#inspiration)
-  * [Elm](#inspiration)
-  * [Oak](#inspiration)
-  * [Elm](#inspiration)
+  * Elm
+  * Oak
+  * Elm
 #### [Contact Us](#contact-us)
-  * [Contact details](#contact-us)
-  * [Location map](#contact-us)
-  * [Design Query form](#contact-us)
+  * Contact details
+  * Location map
+  * Design Query form
 
 ## Existing Features  
   * ### Styling 
@@ -125,10 +125,15 @@ lighthouse in devtools
 
 Beta testing with peers.
 
-# Deployment (not complete)
+# Deployment
 
-describe the process of getting the project to git hub.
-link to the live link.
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+  * In the GitHub repository, navigate to the Settings tab
+  * Once in settings, navigate to the pages tab on the left hand side.
+  * Under source, select the branch to master.
+  * Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+  The live link to the Github repository can be found here - https://github.com/EwanColquhoun/wawaswoods
 
 # Credits (not complete)
 

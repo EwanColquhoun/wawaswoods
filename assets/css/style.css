@@ -267,6 +267,11 @@ h3 {
     font-size: larger;
 }
 
+#projects i, #inspiration i {
+    font-size: 70%;
+    padding: 0px 15px 0px 15px;
+}
+
 .float-left {
     float: left;
 }
@@ -618,7 +623,7 @@ footer > h3 {
 }
 
 #up-arrow {
-    color: rgba(27, 61, 47, 0.6);
+    color: rgba(27, 61, 47, 0.7);
     position: absolute;
     display: inline-block;
     height: auto;
@@ -632,7 +637,7 @@ footer > h3 {
 }
 
 #up-arrow:hover {
-    color: #5A8155
+    color: #1b3d2f;
 }
 
 /* safari specific styling */
