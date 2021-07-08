@@ -57,7 +57,9 @@ Welcome to the journey through <a href="index.html" target=_blank>Wawas Woods</a
 
 The wireframes for Wawas Woods were produced in [Balsamiq](https://balsamiq.com). There are frames for a full width display and a small mobile device. The final site varies slightly from the wireframes due to developments that occured during the creation process. 
 
-image of wireframes. 
+![Desktop wireframe image](assets/images/desktop-wireframes.png)
+
+![Mobile wireframe image](assets/images/mobile-wireframes.png) 
 
 [Back to top](<#contents>)
 
@@ -163,6 +165,7 @@ Wawas Woods site is set up to be welcoming and easy to use. It contains many fea
 [Back to top](<#contents>)
 
 # Testing
+
 
 link to w3 validator https://validator.w3.org/
 link to css (jigsaw) validator  https://jigsaw.w3.org/css-validator/
