@@ -947,7 +947,7 @@ footer > h3 {
     }
 
     #form-destination-text {
-        font-size: revert;
+        font-size: x-large;
         padding: 10% 5%;
     }
 }

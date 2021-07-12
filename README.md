@@ -4,7 +4,7 @@ Wawas Woods is a small business set up to create custom made wooden items. The s
 
 Welcome to the journey through <a href="https://ewancolquhoun.github.io/wawaswoods/index.html" target=_blank>Wawas Woods</a>
 
-![Wawas Woods responsive design](assets/images/responsive.png)
+![Wawas Woods responsive design](assets/readme-images/responsive.png)
 
 # Contents
 
@@ -50,6 +50,11 @@ Welcome to the journey through <a href="https://ewancolquhoun.github.io/wawaswoo
 * As a user I want to be able to navigate through the whole site smoothly.
 * As a user I want to understand the purpose of the site upon loading it.
 * As a user I want to easily be able to contact Wawas Woods for more information.
+* As a user I want to see existing pieces of Wawas Woods' work.
+* As a user I want to know more about Wawas Woods.
+* As a user I want to know how other peoples' experiences with Wawas Woods has been.
+* As a user I want to connect with Wawas Woods on social media.
+* As a user I want to know the process of converting some wood into a finished project.
 
 [Back to top](<#contents>)
 
@@ -57,9 +62,9 @@ Welcome to the journey through <a href="https://ewancolquhoun.github.io/wawaswoo
 
 The wireframes for Wawas Woods were produced in [Balsamiq](https://balsamiq.com). There are frames for a full width display and a small mobile device. The final site varies slightly from the wireframes due to developments that occured during the creation process. 
 
-![Desktop wireframe image](assets/images/desktop-wireframes.png)
+![Desktop wireframe image](assets/readme-images/desktop-wireframes.png)
 
-![Mobile wireframe image](assets/images/mobile-wireframes.png) 
+![Mobile wireframe image](assets/readme-images/mobile-wireframes.png) 
 
 [Back to top](<#contents>)
 
@@ -79,7 +84,7 @@ On every page there is also a 'back to the top arrow' in the bottom left corner.
  * ### Colour Scheme
       The colour scheme eventually chosen is one based on green and off-white. The colours contrasts with the wood colour in many of the images. 
 
-![Colour Palate image](assets/images/color-palate.png)
+![Colour Palate image](assets/readme-images/color-palate.png)
 
 
 [Back to top](<#contents>)
@@ -93,7 +98,7 @@ Wawas Woods site is set up to be welcoming and easy to use. It contains many fea
     * Sited at the top of all the pages in the site, it is fully responsive and contains links to all the pages of the site to enable ease of navigation in one convenient location.
     * The logo is clickable with a link back to the home page for enhanced UX.
 
-![Navigation bar image](assets/images/navbar.png)
+![Navigation bar image](assets/readme-images/navbar.png)
 [Back to top](<#contents>)
 
   * ### Gallery
@@ -101,7 +106,7 @@ Wawas Woods site is set up to be welcoming and easy to use. It contains many fea
       * Located on the home page beneath the title section. It was intended to make the title section relatively plain to enable a focus on the images in the gallery.
       * A responsively styled grid of images of past projects to give the user an idea of what is possible. 
 
-![Gallery image](assets/images/gallery.png)
+![Gallery image](assets/readme-images/gallery.png)
 [Back to top](<#contents>)
 
   * ### About-Us
@@ -109,7 +114,7 @@ Wawas Woods site is set up to be welcoming and easy to use. It contains many fea
     * The combination of a family picture and the text will draw the user in further by instilling a confidence that the project will be taken care of by a small family business.
     * An inbedded link to the contact section in the text will help the user navigate quickly to the next step of the project process.
 
-![About-Us image](assets/images/about-us.png)
+![About-Us image](assets/readme-images/about-us.png)
 [Back to top](<#contents>)
 
   * ### Testimonials
@@ -117,7 +122,7 @@ Wawas Woods site is set up to be welcoming and easy to use. It contains many fea
     * The testimonials section provides the user with some feedback from previous clients. There are three testimonials displayed giving a name, project name and some text.
     * They are styled with a box shadow to 'detach' them from the site to instill a sense of impartiality in the user.
 
-![Testimonials section image](assets/images/testimonials.png)
+![Testimonials section image](assets/readme-images/testimonials.png)
 [Back to top](<#contents>)
 
 * ### Footer
@@ -126,7 +131,7 @@ Wawas Woods site is set up to be welcoming and easy to use. It contains many fea
     * The social media presence will help the user with their research into Wawas Woods and will also encourage them to connect with Wawas Woods.
     * To help the user with navigation on all devices a 'scroll to the top' arrow was added. It sticks to the bottom left of the screen at all times to give the user a quick and unobstructed way to the navigation bar. The arrow is semi-transparent with a light/dark contrasting border for use against all background colours.
     
-![Footer image](assets/images/footer.png)
+![Footer image](assets/readme-images/footer.png)
 [Back to top](<#contents>)
 
 * ### Projects
@@ -135,14 +140,14 @@ Wawas Woods site is set up to be welcoming and easy to use. It contains many fea
     * There are images of the recent projects. To help enhance the UX two slideshows have been added to allow the user to see more images of two of the pieces.
     * This section would be up-dated periodically to reflect new recently finished projects.
 
-![Projects page image](assets/images/projects2.png)
+![Projects page image](assets/readme-images/projects2.png)
 [Back to top](<#contents>)
 
 * ### Inspiration
     * The inspiration page is mainly there to demonstrate how a project starts and what is required to transform it into a finished project. It should inspire the user with the images of unfinished wood and get the user to imagine how that would look as a finished product.
     * It also contains a brief description of how the project would be constructed to give the user a rough idea of what goes on behind the scenes.
 
-![Inspiration page image](assets/images/inspiration.png)
+![Inspiration page image](assets/readme-images/inspiration.png)
 [Back to top](<#contents>)
 
 * ### Contact Us
@@ -151,7 +156,7 @@ Wawas Woods site is set up to be welcoming and easy to use. It contains many fea
     * In case the user would like to contact Wawas Woods directly there is an e-mail link icon. It opens the users default email provider with an email addressed to Wawas Woods.
     * There is a form that the user can choose to fill in. It has a 5 input fields, name, email, address, callback and a textarea. The call back button lets Wawas Woods know if the user would like a callback.
 
-![Contact Us page image](assets/images/contact-us.png)
+![Contact Us page image](assets/readme-images/contact-us.png)
 [Back to top](<#contents>)
 
 ## Future Features 
@@ -175,7 +180,7 @@ The next level of testing consisted of using [Google Lighthouse](https://develop
 * SEO - Search engine optimisation. Is the site optimised for search engine result rankings.
 
 The results for Wawas Woods are below:
-![Lighthouse test results](assets/images/testing.png)
+![Lighthouse test results](assets/readme-images/testing.png)
 
 This part of the testing process showed up that the site was slow to load, mainly due to the image sizes. All the images needed to be compressed before adding to the repository. Once this was done the performance went from ~60% to ~90%. 
 
