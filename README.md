@@ -2,7 +2,7 @@
 
 Wawas Woods is a small business set up to create custom made wooden items. The site is targeted at the prospective buyer who is in the market for something tailored to their exacting requirements. Wawas Woods will be useful to help guide people through from project inception to delivery.
 
-Welcome to the journey through <a href="index.html" target=_blank>Wawas Woods</a>
+Welcome to the journey through <a href="https://ewancolquhoun.github.io/wawaswoods/index.html" target=_blank>Wawas Woods</a>
 
 ![Wawas Woods responsive design](assets/images/responsive.png)
 
