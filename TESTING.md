@@ -1,6 +1,8 @@
 # Testing
 ## Code Validation
-The Wawas Woods site has be throughly tested. All the code has been run through the [W3C html Validator](https://validator.w3.org/) and the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). A minor errors were found on the home and inspiration pages. After a fix and retest, no errors were returned for both. The HTML validator results for each page are below:
+The Wawas Woods site has be throughly tested. All the code has been run through the [W3C html Validator](https://validator.w3.org/) and the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). Minor errors were found on the home and inspiration pages. After a fix and retest, no errors were returned for both. 
+
+The HTML validator results for each page are below:
 
 * Home page
 
@@ -15,7 +17,7 @@ This was an oversight from the development phase when the font size was being mo
 * Inspiration page
 
 ![W3C Validator test result](assets/readme-images/inspirationtesting.png)
-This problem highlighted that the \<UL> was inside the \<P> element. It was easily fixed by closing the \</P> then opening the \<UL> so that it was outside the \<P>.
+This problem highlighted that the \<UL> was inside the \<P> element. It was easily fixed by ensuring that the list was outside of the paragraph.
 
 * Contact page
 
@@ -27,7 +29,7 @@ The CSS validator results are below:
 
 ## Responsiveness Test
 
-* The responsive tests were carried out manually with 
+* The responsive design tests were carried out manually with [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) and [Responsive Design Checker](https://www.responsivedesignchecker.com/).
 
 |        | Moto G4 | Galaxy S5 | iPhone 5 | iPad | Display <1200px | Display >1200px |
 |--------|---------|-----------|----------|------|-----------------|-----------------|
@@ -35,23 +37,23 @@ The CSS validator results are below:
 | Images | pass    | pass      | pass     | pass | pass            | pass            |
 | Links  | pass    | pass      | pass     | pass | pass            | pass            |
 
-Note: On a display larger than 2000px the contents of the site are restricted in width to 2000px. This helps the UI by not spreading the content too wide on the extra wide screens.
+Note: On wide display types the contents of the site are restricted in width to 2000px. This helps the UX by not spreading the content too wide on the extra wide screens.
 
 ## Browser Compatibility
 
 Wawas Woods site was tested on the following browsers with no visible issues for the user. 
-Google Chrome, Microsoft Edge, Safari and Mozilla Firefox. Responsiveness was consistent throughout.
+Google Chrome, Microsoft Edge, Safari and Mozilla Firefox. Responsiveness was consistent throughout for a range of device sizes.
 
 ## Testing User Stories
 
 * As a user I want to be able to navigate through the whole site smoothly.
-    * Navigation is at the top of every page in the form of the navigation menu.
+    * Navigation is at the top of every page in the form of the **navigation menu**.
     * In the about us section, there is an additional link to the **contact us** page.
     * On every page there is also a **scroll up arrow** to ease the route to the navigation menu.
 
     <br>
 * As a user I want to understand the purpose of the site upon loading it.
-    * On the landing page, the heading **'Bespoke wooden designs'** combined with the images in the **gallery** should allow the user to interpolate the main purpose of the site.
+    * On the home page, the heading **'Bespoke wooden designs'** combined with the images in the **gallery** should allow the user to interpolate the main purpose of the site.
 
     <br>
 * As a user I want to easily be able to contact Wawas Woods for more information.
@@ -68,12 +70,12 @@ Google Chrome, Microsoft Edge, Safari and Mozilla Firefox. Responsiveness was co
     * On the home page there is the **about us** section. This gives a brief description on who Wawas Woods are.
 
     <br>
-* As a user I want to know how other peoples' experiences with Wawas Woods has been.
+* As a user I want to know how other peoples' experiences with Wawas Woods have been.
     * At the bottom of the home page there are some **testimonials** from previous customers.
 
     <br>
 * As a user I want to connect with Wawas Woods on social media.
-    * In the **footer** of every page there are some social medial links to Wawas Woods social media pages.
+    * In the **footer** of every page there are some **social media links** to Wawas Woods social media pages.
 
     <br>
 * As a user I want to know the process of converting some wood into a finished project.
@@ -81,9 +83,13 @@ Google Chrome, Microsoft Edge, Safari and Mozilla Firefox. Responsiveness was co
     * On the **inspiration** page there are also simplistic descriptions for the methods of constructing the suggested projects.
 
 ## Bugs
-Whilst testing the page on Safari it was noticed that some CSS wasn't displaying correctly. After some investigation it was deceided to target the CSS that wasn't safari compatible and format it correctly for Safari. 
+* Solved
+    * Whilst testing the site on Safari it was noticed that some CSS wasn't displaying correctly. After some investigation it was deceided to target the CSS that wasn't safari compatible with a media query and format it correctly for Safari. 
 
-During validator testing it was found that two end paragraph element tags were not recognised. After further investigation it appeared that the UL element inside the paragraph was conflicting and had hidden the end paragraph tags. Moving the UL outside the paragraph solved this bug.
+* Un-Solved
+    * The form, on the face of it acts like you would expect it to, it acknowledges your data input, however the data doesn't push anywhere. This is a limitation within this project and would be rectified for a true deployment of the Wawas Woods site.
+    
+    <br>
 ## Additional Testing
 
 ### Lighthouse
@@ -98,5 +104,7 @@ As an example the results for Wawas Woods home page are below:
 
 This part of the testing process showed up that the site was slow to load, mainly due to the image sizes. All the images needed to be compressed before adding to the repository. Once this was done the performance went from ~60% to ~90%. 
 
-### Peers
-In addition to all the above testing the beta version of the site was put through its paces by peers, both in the software development field and outside. The results highlighted a few weaknessess for a type of mobile devices that were rectified with minor CSS amendments. There were also minor spelling and grammar errors. 
+### Peer review
+In addition to all the above testing the beta version of the site was put through its paces by peers, both in the software development field and outside. The results highlighted responsive design weakness for a type of mobile device that was rectified with minor CSS amendments. There were also minor spelling and grammar errors that have since been fixed.
+
+Back to [README.md](README.md).

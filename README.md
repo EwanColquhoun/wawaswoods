@@ -70,7 +70,7 @@ The wireframes for Wawas Woods were produced in [Balsamiq](https://balsamiq.com)
 
 ## Site Structure
 
-Wawas Woods website has four pages. The [home page](/index.html) is the default loading page, [projects](/projects.html), [inspiration](/inspiration.html) and [contact](/contact.html) pages are all accessible primarily from the navigation menu. There is another link to the contact page in the 'About-us' section to give the user some guidance to the next step of the journey. 
+Wawas Woods website has four pages. The [home page](index.html) is the default loading page, [projects](projects.html), [inspiration](inspiration.html) and [contact](contact.html) pages are all accessible primarily from the navigation menu. There is another link to the contact page in the 'About-us' section to give the user some guidance to the next step of the journey. 
 On every page there is also a 'back to the top arrow' in the bottom left corner.
 
 [Back to top](<#contents>)
@@ -171,32 +171,7 @@ Wawas Woods site is set up to be welcoming and easy to use. It contains many fea
 
 # Testing
 
-The Wawas Woods site has be throughly tested. All the code has been run through the [W3C html Validator](https://validator.w3.org/) and the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) and no errors were returned for both. 
-
-The next level of testing consisted of using [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) in Chrome Developer Tools to test each of the pages for:
-* Performance - How the page performs whilst loading.
-* Accessibility - Is the site acccessible for all users and how can it be improved.
-* Best Practices - Site conforms to industry best practices.
-* SEO - Search engine optimisation. Is the site optimised for search engine result rankings.
-
-The results for Wawas Woods are below:
-![Lighthouse test results](assets/readme-images/testing.png)
-
-This part of the testing process showed up that the site was slow to load, mainly due to the image sizes. All the images needed to be compressed before adding to the repository. Once this was done the performance went from ~60% to ~90%. 
-
-The form, whilst fictional it is still functional. You can input data and will be directed to a holding page until further navigation is selected. 
-
-As Wawas Woods site is fully responsive, it has been tested on most of the mainstream sizes of browsers. Widescreen desktop, ipad and mobile phone size. 
-
-The site has aslo been beta tested by peers and previous customers of the company.
-
-## Bugs
-Whilst testing the page on Safari it was noticed that some CSS wasn't displaying correctly. After some investigation it was deceided to target the CSS that wasn't safari compatible and format it correctly for Safari. 
-
-During validator testing it was found that two end paragraph element tags were not recognised. After further investigation it appeared that the UL element inside the paragraph was conflicting and had hidden the end paragraph tags. Moving the UL outside the paragraph solved this bug.
-
-## Unsolved Bugs
-The form, on the face of it acts like you would expect it to, it acknowledges your data input, however the data doesn't push anywhere. This is a limitation within this project and would be rectified for a true deployment of the Wawas Woods site.
+Please refer to [**_here_**](TESTING.md) for more information on testing Wawas Woods.
 
 [Back to top](<#contents>)
 
