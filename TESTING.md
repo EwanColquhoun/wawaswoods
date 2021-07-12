@@ -1,12 +1,12 @@
 # Testing
 ## Code Validation
-The Wawas Woods site has be throughly tested. All the code has been run through the [W3C html Validator](https://validator.w3.org/) and the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). A minor error was found on the home page. After a fix and retest, no errors were returned for both. The HTML validator results for each page are below:
+The Wawas Woods site has be throughly tested. All the code has been run through the [W3C html Validator](https://validator.w3.org/) and the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). A minor errors were found on the home and inspiration pages. After a fix and retest, no errors were returned for both. The HTML validator results for each page are below:
 
 * Home page
 
 ![W3C Validator test result](assets/readme-images/indextesting.png)
 
-This was an oversight from the development phase when the font size was being modified. It was easily fixed by using the correct closing tag.
+This was an oversight from the development phase when the font size was being modified. It was easily fixed by using the correct closing tag, \</h5>.
 
 * Projects page
 
@@ -14,7 +14,8 @@ This was an oversight from the development phase when the font size was being mo
 
 * Inspiration page
 
-![W3C Validator test result](assets/readme-images/w3ctesting.png)
+![W3C Validator test result](assets/readme-images/inspirationtesting.png)
+This problem highlighted that the \<UL> was inside the \<P> element. It was easily fixed by closing the \</P> then opening the \<UL> so that it was outside the \<P>.
 
 * Contact page
 
@@ -26,8 +27,20 @@ The CSS validator results are below:
 
 ## Responsiveness Test
 
+* The responsive tests were carried out manually with 
+
+|        | Moto G4 | Galaxy S5 | iPhone 5 | iPad | Display <1200px | Display >1200px |
+|--------|---------|-----------|----------|------|-----------------|-----------------|
+| Render | pass    | pass      | pass     | pass | pass            | pass            |
+| Images | pass    | pass      | pass     | pass | pass            | pass            |
+| Links  | pass    | pass      | pass     | pass | pass            | pass            |
+
+Note: On a display larger than 2000px the contents of the site are restricted in width to 2000px. This helps the UI by not spreading the content too wide on the extra wide screens.
 
 ## Browser Compatibility
+
+Wawas Woods site was tested on the following browsers with no visible issues for the user. 
+Google Chrome, Microsoft Edge, Safari and Mozilla Firefox. Responsiveness was consistent throughout.
 
 ## Testing User Stories
 
@@ -68,5 +81,22 @@ The CSS validator results are below:
     * On the **inspiration** page there are also simplistic descriptions for the methods of constructing the suggested projects.
 
 ## Bugs
+Whilst testing the page on Safari it was noticed that some CSS wasn't displaying correctly. After some investigation it was deceided to target the CSS that wasn't safari compatible and format it correctly for Safari. 
 
-## Additional (lighthouse)(peers)
+During validator testing it was found that two end paragraph element tags were not recognised. After further investigation it appeared that the UL element inside the paragraph was conflicting and had hidden the end paragraph tags. Moving the UL outside the paragraph solved this bug.
+## Additional Testing
+
+### Lighthouse
+The site was also tested using [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) in Chrome Developer Tools to test each of the pages for:
+* Performance - How the page performs whilst loading.
+* Accessibility - Is the site acccessible for all users and how can it be improved.
+* Best Practices - Site conforms to industry best practices.
+* SEO - Search engine optimisation. Is the site optimised for search engine result rankings.
+
+As an example the results for Wawas Woods home page are below:
+![Lighthouse test results](assets/readme-images/testing.png)
+
+This part of the testing process showed up that the site was slow to load, mainly due to the image sizes. All the images needed to be compressed before adding to the repository. Once this was done the performance went from ~60% to ~90%. 
+
+### Peers
+In addition to all the above testing the beta version of the site was put through its paces by peers, both in the software development field and outside. The results highlighted a few weaknessess for a type of mobile devices that were rectified with minor CSS amendments. There were also minor spelling and grammar errors. 
