@@ -144,7 +144,7 @@ h3 {
 }
 
 /* gallery */
-
+/*  responsive styling drops the column and row numbers down to fit the smaller screens */
 #gallery {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -202,12 +202,13 @@ h3 {
     padding: 40px;
     width: 100%;
     margin: 0 auto;
-    display: flow-root;
+    display: inline-block;
     line-height: 23px;
     justify-items: center;
     box-sizing: border-box;
 }
 
+/* box shadow draws the users attention to the testimonials */
 #testimonials div {
     float: left;
     box-shadow: 
@@ -231,7 +232,7 @@ h3 {
 }
 
 #testimonials h5 {
-    padding: 20px 5px 0px 5px;
+    padding: 20px 5px 10px 5px;
     font-size: medium;
 }
 
@@ -297,6 +298,7 @@ h3 {
     top: 40px;
 }
 
+/* height chart covers the top and bottom borders of the div. This affect emphasises the hight aspect of the project and adds some character to it. (top: -50;) */
 #height-img {
     position: absolute;
     right: 100px;
@@ -304,7 +306,6 @@ h3 {
     width: auto;
     height: auto;
     max-height: 700px;
-    object-fit: contain;
     border-radius: 40px;
     box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.9);
 }
@@ -340,10 +341,12 @@ h3 {
     border-radius: 40px;
 }
 
+/* hides the traditional radio buttons */
 .slider input {
 	display: none;
 }
 
+/* lets the images used for labels appear at the bottom left of the slider. */
 .slider label {
 	margin: 25px 0 0 18px;
 	border: 3px solid #999;
@@ -376,7 +379,7 @@ h3 {
 	opacity: 1;
 	transform: scale(1);
 }
-
+/* styles below repeat the above for the second slider */
 .slider input[name='slide_switch_two']:checked+label {
 	border-color: #666;
 	opacity: 1;
@@ -502,6 +505,7 @@ iframe {
     -8px -8px 12px 0 rgba(245, 245, 245, 0.5);
 }
 
+/* enhances the UX by providing feedback when the cursor is over the icon */
 #email-icon:hover {
     transform: scale(1.5,1.5);
 }
@@ -528,6 +532,7 @@ iframe {
     border-radius: 10px;
 }
 
+/* changes the default placeholder text to match that of the site */
 ::placeholder, #message{
     color: #1B3D2F;
     font-size: large;
@@ -578,7 +583,7 @@ iframe {
     bottom: 15px;
     border-radius: 10px;
 }
-
+/* enhances the UX by providing feedback when the cursor is over the submit button */
 #submit:hover {
     border: 3px solid #fdf9ee;
     background-color: #1B3D2F;
@@ -619,7 +624,7 @@ footer {
     margin: 15px;
     color: #1B3D2F;
 }
-
+/* provides enhanced UX with feedback over the icons */
 .socials:hover {
     transform: scale(1.3,1.3);
 }
@@ -672,6 +677,7 @@ footer > h3 {
     }
 }}
 
+/* For large to medium screens sizes from 1200px wide and down */
 @media screen and (max-width: 1200px){
     iframe {
         width: 100%;
@@ -857,9 +863,9 @@ footer > h3 {
 /* For small screens sizes from 800px wide and down */
 @media screen and (max-width: 800px){
     #gallery {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(4, 300px);
-        overflow: auto;
+        overflow: hidden;
     }
 
     .social-networks i {
@@ -939,6 +945,11 @@ footer > h3 {
         margin: auto;
         margin-top: 25px;
     }
+
+    #form-destination-text {
+        font-size: revert;
+        padding: 10% 5%;
+    }
 }
 
 /* For smaller screens sizes from 500px wide and down */
@@ -948,5 +959,11 @@ footer > h3 {
         max-width: 100%;
         margin-bottom: 50px;
         padding-top: 325px;
+    }
+/* enables the overflow from the gallery on smaller mobile devices to be scrolled through vertically.*/
+    #gallery {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 300px);
+        overflow: auto;
     }
 }
