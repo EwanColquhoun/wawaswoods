@@ -104,4 +104,4 @@ This part of the testing process showed up that the site was slow to load, mainl
 ### Peer review
 In addition to the above testing the beta version of the site was put through its paces by peers, both in the software development field and outside. The results highlighted responsive design weakness for a type of mobile device that was rectified with minor CSS amendments. There were also minor spelling and grammar errors that have since been fixed.
 
-Back to [README.md](README.md).
+Back to [README.md](./README.md#testing).

@@ -2,7 +2,7 @@
 
 Wawas Woods is a small business set up to create custom made wooden items. The site is targeted at the prospective buyer who is in the market for something tailored to their exacting requirements. Wawas Woods will be useful to help guide people through from project inception to delivery.
 
-Welcome to the journey through <a href="https://ewancolquhoun.github.io/wawaswoods/index.html" target=_blank>Wawas Woods</a>
+Welcome to the journey through <a href="https://ewancolquhoun.github.io/wawaswoods/index.html" target="_blank">Wawas Woods</a>
 
 ![Wawas Woods responsive design](assets/readme-images/responsive.png)
 
@@ -107,7 +107,7 @@ Wawas Woods site is set up to be welcoming and easy to use. It contains many fea
       * Located on the home page beneath the title section. It was intended to make the title section relatively plain to enable a focus on the images in the gallery.
       * A responsively styled grid of images of past projects to give the user an idea of what is possible. 
 
-![Gallery image](assets/readme-images/gallery.png)
+![Gallery image](assets/readme-images/gallery2.png)
 [Back to top](<#contents>)
 
   * ### About-Us
@@ -141,7 +141,7 @@ Wawas Woods site is set up to be welcoming and easy to use. It contains many fea
     * There are images of the recent projects. To help enhance the UX two slideshows have been added to allow the user to see more images of two of the pieces.
     * This section would be up-dated periodically to reflect new recently finished projects.
 
-![Projects page image](assets/readme-images/projects2.png)
+![Projects page image](assets/readme-images/projects3.png)
 [Back to top](<#contents>)
 
 * ### Inspiration
@@ -223,11 +223,12 @@ The method from cloning a project from GitHub is below:
 ### Content
 
 * The font came from [Google Fonts](https://fonts.google.com/).
+* The map is embedded from [Google Maps](https://www.google.com/maps).
 * The colour palate was compiled by [Colormind](http://colormind.io/).
 * The icons came from [Font Awesome](https://fontawesome.com/).
 * The form validation idea came from a [YouTube tutorial](https://www.youtube.com/watch?v=fNcJuPIZ2WE).
 * The code for the Safari specific styling was inspired by an example on [Stack Overflow](https://stackoverflow.com/).
-* The code for the Project Sliders came from this example on [The Code Player](https://thecodeplayer.com/walkthrough/css3-image-slider-with-stylized-thumbnails).
+* The inspiration for the Project page sliders came from this repository on [GitHub](https://gist.github.com/zhilinskiy/4603199).
 * [Balsamiq](https://balsamiq.com/wireframes/) was used to create the wireframes.
 
 
