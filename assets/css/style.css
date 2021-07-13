@@ -626,7 +626,7 @@ footer {
     font-size: 140%;
     padding: 30px;
     margin: 15px;
-    color: #1B3D2F;
+    color: rgb(26, 60, 46);
 }
 /* provides enhanced UX with feedback over the icons */
 .socials:hover {
