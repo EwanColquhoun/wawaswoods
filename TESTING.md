@@ -82,16 +82,13 @@ Google Chrome, Microsoft Edge, Safari and Mozilla Firefox. Responsiveness was co
     * One of the pages is an **inspiration** page. It is designed to give the user an idea of how projects start out and what they could potentially become.
     * On the **inspiration** page there are also simplistic descriptions for the methods of constructing the suggested projects.
 
-## Bugs
-* Solved
-    * Whilst testing the site on Safari it was noticed that some CSS wasn't displaying correctly. After some investigation it was deceided to target the CSS that wasn't safari compatible with a media query and format it correctly for Safari. 
-
-* Un-Solved
-    * The form, on the face of it acts like you would expect it to, it acknowledges your data input, however the data doesn't push anywhere. This is a limitation within this project and would be rectified for a true deployment of the Wawas Woods site.
+## Known Bugs
+* The form, on the face of it acts like you would expect it to, it acknowledges your data input, however the data doesn't push anywhere. This is a limitation within this project and would be rectified for a true deployment of the Wawas Woods site.
+* In the gitpod editor console one problem flags up within the CSS. To enable the site to perform properly on all versions of Safari a 'media query with a blank 'media@' is used. This flags up as an error but infact doesn't affect the sites functionality in its present form. For future development I would link another stylesheet with safai specific styling to load when Safari is used.
     
-    <br>
-## Additional Testing
+    ![Safari specific styling image](assets/readme-images/media-query.png)
 
+## Additional Testing
 ### Lighthouse
 The site was also tested using [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) in Chrome Developer Tools to test each of the pages for:
 * Performance - How the page performs whilst loading.
@@ -105,6 +102,6 @@ As an example the results for Wawas Woods home page are below:
 This part of the testing process showed up that the site was slow to load, mainly due to the image sizes. All the images needed to be compressed before adding to the repository. Once this was done the performance went from ~60% to ~90%. 
 
 ### Peer review
-In addition to all the above testing the beta version of the site was put through its paces by peers, both in the software development field and outside. The results highlighted responsive design weakness for a type of mobile device that was rectified with minor CSS amendments. There were also minor spelling and grammar errors that have since been fixed.
+In addition to the above testing the beta version of the site was put through its paces by peers, both in the software development field and outside. The results highlighted responsive design weakness for a type of mobile device that was rectified with minor CSS amendments. There were also minor spelling and grammar errors that have since been fixed.
 
 Back to [README.md](README.md).

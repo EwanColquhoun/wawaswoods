@@ -281,24 +281,28 @@ h3 {
     float: right;
 }
 
-#cots-p, #walker-p{
+#cots-p, #walker-p {
     padding-left: 55%;
     padding-right: 5%;
-}
-
-#cots-p, #walker-p {
     position: absolute;
-    top: 150px;
+    top: 17%;
     right: 30px;
 }
+
+#cots-list {
+    padding-left: 60%;
+    padding-right: 5%;
+    margin-top: 5px;
+}
+
 #height-p {
     padding-left: 5%;
     padding-right: 45%;
     position:absolute;
-    top: 40px;
+    top: 17%;
 }
 
-/* height chart covers the top and bottom borders of the div. This affect emphasises the hight aspect of the project and adds some character to it. (top: -50;) */
+/* height chart covers the top and bottom borders of the div. This affect emphasises the height aspect of the project and adds some character to it. (top: -50;) */
 #height-img {
     position: absolute;
     right: 100px;
@@ -781,12 +785,21 @@ footer > h3 {
         object-fit: cover;
     }
 
-    #projects p {
+    #height-p {
         display: block;
         width: 80%;
         bottom: 0px;
         padding: 20px 0px;
-        margin: 70px auto 10px auto;
+        margin: 10px auto 10px auto;
+        position: unset;
+    }
+
+    #cots-p, #walker-p {
+        display: block;
+        width: 80%;
+        bottom: 0px;
+        padding: 20px 0px;
+        margin: 80px auto 10px auto;
         position: unset;
     }
 
@@ -874,7 +887,7 @@ footer > h3 {
     padding-top: 30px;
     }
 
-    #projects p {
+    #cots-p, #walker-p {
         margin-top: 70px;
     }
 
@@ -960,6 +973,11 @@ footer > h3 {
         margin-bottom: 50px;
         padding-top: 325px;
     }
+
+    #projects p {
+        font-size: initial;
+    }
+
 /* enables the overflow from the gallery on smaller mobile devices to be scrolled through vertically.*/
     #gallery {
         grid-template-columns: repeat(2, 1fr);

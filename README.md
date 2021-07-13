@@ -35,6 +35,7 @@ Welcome to the journey through <a href="https://ewancolquhoun.github.io/wawaswoo
        * Location map
        * Design Query form
     * [**Future Features**](<#future-features>)
+* [**Technologies Used**](<#technologies-used>)
 * [**Testing**](<#testing>)
 * [**Deployment**](<#deployment>)
 * [**Credits**](<#credits>)
@@ -82,7 +83,7 @@ On every page there is also a 'back to the top arrow' in the bottom left corner.
       * 'Lato' is used for the body text as it provides a nice contrast to the cursive whilst being easy to read for all.
 
  * ### Colour Scheme
-      The colour scheme eventually chosen is one based on green and off-white. The colours contrasts with the wood colour in many of the images. 
+      The colour scheme eventually chosen is one based on green and off-white. The colour contrasts with the wood colour in many of the images. 
 
 ![Colour Palate image](assets/readme-images/color-palate.png)
 
@@ -153,8 +154,8 @@ Wawas Woods site is set up to be welcoming and easy to use. It contains many fea
 * ### Contact Us
 
     * This section should complete the online journey for the user. It has a map (location of real life workshop not shown due to privacy reasons), address, phone number and email address details.
-    * In case the user would like to contact Wawas Woods directly there is an e-mail link icon. It opens the users default email provider with an email addressed to Wawas Woods.
-    * There is a form that the user can choose to fill in. It has a 5 input fields, name, email, address, callback and a textarea. The call back button lets Wawas Woods know if the user would like a callback.
+    * In case the user would like to contact Wawas Woods directly there is an e-mail link icon. It opens the user's default email provider with an email addressed to Wawas Woods.
+    * There is a form that the user can choose to fill in. It has 5 input fields, name, email, address, callback and a textarea. The call back button lets Wawas Woods know if the user would like a callback.
 
 ![Contact Us page image](assets/readme-images/contact-us.png)
 [Back to top](<#contents>)
