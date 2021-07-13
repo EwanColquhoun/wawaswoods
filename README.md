@@ -1,8 +1,8 @@
-# **Wawas Woods**
+# **_Wawas Woods_**
 
 Wawas Woods is a small business set up to create custom made wooden items. The site is targeted at the prospective buyer who is in the market for something tailored to their exacting requirements. Wawas Woods will be useful to help guide people through from project inception to delivery.
 
-Welcome to the journey through <a href="https://ewancolquhoun.github.io/wawaswoods/index.html" target="_blank">Wawas Woods</a>
+Welcome to the journey through <a href="https://ewancolquhoun.github.io/wawaswoods/index.html" target="_blank" rel="noopener">Wawas Woods</a>
 
 ![Wawas Woods responsive design](assets/readme-images/responsive.png)
 
@@ -83,7 +83,7 @@ On every page there is also a 'back to the top arrow' in the bottom left corner.
       * 'Lato' is used for the body text as it provides a nice contrast to the cursive whilst being easy to read for all.
 
  * ### Colour Scheme
-      The colour scheme eventually chosen is one based on green and off-white. The colour contrasts with the wood colour in many of the images. 
+      The colour scheme eventually chosen is one based on green and off-white. The colour contrasts with the wood colour in many of the images. Green traditionally gives the impression of energy, safety and growth. This is something that Wawas Woods can hopefully pass onto the user.
 
 ![Colour Palate image](assets/readme-images/color-palate.png)
 
@@ -107,7 +107,7 @@ Wawas Woods site is set up to be welcoming and easy to use. It contains many fea
       * Located on the home page beneath the title section. It was intended to make the title section relatively plain to enable a focus on the images in the gallery.
       * A responsively styled grid of images of past projects to give the user an idea of what is possible. 
 
-![Gallery image](assets/readme-images/gallery2.png)
+![Gallery image](assets/readme-images/gallery3.png)
 [Back to top](<#contents>)
 
   * ### About-Us
@@ -122,6 +122,7 @@ Wawas Woods site is set up to be welcoming and easy to use. It contains many fea
 
     * The testimonials section provides the user with some feedback from previous clients. There are three testimonials displayed giving a name, project name and some text.
     * They are styled with a box shadow to 'detach' them from the site to instill a sense of impartiality in the user.
+    * The testimonals will be updated as more recent testimonials become available.
 
 ![Testimonials section image](assets/readme-images/testimonials.png)
 [Back to top](<#contents>)
@@ -139,7 +140,7 @@ Wawas Woods site is set up to be welcoming and easy to use. It contains many fea
 
     * The projects page give the user an idea of the recent projects that have been worked on. It also shows a number of different wood working techniques and finishes to help inspire the user's design.
     * There are images of the recent projects. To help enhance the UX two slideshows have been added to allow the user to see more images of two of the pieces.
-    * This section would be up-dated periodically to reflect new recently finished projects.
+    * This section would be updated periodically to reflect new recently finished projects.
 
 ![Projects page image](assets/readme-images/projects3.png)
 [Back to top](<#contents>)
@@ -191,7 +192,7 @@ Please refer to [**_here_**](TESTING.md) for more information on testing Wawas W
 The site was deployed to GitHub pages. The steps to deploy a site are as follows:
   1. In the GitHub repository, navigate to the **Settings** tab.
   2. Once in Settings, navigate to the **Pages** tab on the left hand side.
-  3. Under **Source**, select the branch to **master**.
+  3. Under **Source**, select the branch to **master**, then click **save**.
   4. Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 ![GitHub pages deployed image](assets/readme-images/deploy.png)

@@ -84,7 +84,7 @@ Google Chrome, Microsoft Edge, Safari and Mozilla Firefox. Responsiveness was co
 
 ## Known Bugs
 * The form, on the face of it acts like you would expect it to, it acknowledges your data input, however the data doesn't push anywhere. This is a limitation within this project and would be rectified for a true deployment of the Wawas Woods site.
-* In the gitpod editor console one problem flags up within the CSS. To enable the site to perform properly on all versions of Safari a 'media query with a blank 'media@' is used. This flags up as an error but infact doesn't affect the sites functionality in its present form. For future development I would link another stylesheet with safai specific styling to load when Safari is used.
+* In the gitpod editor console one problem flags up within the CSS. To enable the site to perform properly on all versions of Safari a 'media query with a blank 'media@' is used. This flags up as an error but infact doesn't affect the sites functionality in its present form. For future development I would link another stylesheet with Safari specific styling to load when Safari is used.
     
     ![Safari specific styling image](assets/readme-images/media-query.png)
 
