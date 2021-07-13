@@ -132,6 +132,7 @@ Wawas Woods site is set up to be welcoming and easy to use. It contains many fea
     * Contains social media links. To enhance the UX the links open in other tabs.
     * The social media presence will help the user with their research into Wawas Woods and will also encourage them to connect with Wawas Woods.
     * To help the user with navigation on all devices a 'scroll to the top' arrow was added. It sticks to the bottom left of the screen at all times to give the user a quick and unobstructed way to the navigation bar. The arrow is semi-transparent with a light/dark contrasting border for use against all background colours.
+    * The GitHub and LinkedIn social links are there for the educational side of this project. They would be removed if this site was deployed outside of this project.
     
 ![Footer image](assets/readme-images/footer.png)
 [Back to top](<#contents>)
@@ -208,7 +209,7 @@ A copy of the GitHub Repository can be made by forking the GitHub account. This 
 ### **To create a local clone of this project**
 The method from cloning a project from GitHub is below:
 
-1. Under the repository’s name, click on the **clone** tab.
+1. Under the repository’s name, click on the **code** tab.
 2. In the **Clone with HTTPS** section, click on the clipboard icon to copy the given URL.
 ![Cloning image](assets/readme-images/clone.png)
 3. In your IDE of choice, open **Git Bash**.
