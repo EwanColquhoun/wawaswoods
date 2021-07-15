@@ -143,7 +143,7 @@ Wawas Woods site is set up to be welcoming and easy to use. It contains many fea
     * There are images of the recent projects. To help enhance the UX two slideshows have been added to allow the user to see more images of two of the pieces.
     * This section would be updated periodically to reflect new recently finished projects.
 
-![Projects page image](assets/readme-images/projects3.png)
+![Projects page image](assets/readme-images/projects4.png)
 [Back to top](<#contents>)
 
 * ### Inspiration
@@ -159,8 +159,14 @@ Wawas Woods site is set up to be welcoming and easy to use. It contains many fea
     * In case the user would like to contact Wawas Woods directly there is an e-mail link icon. It opens the user's default email provider with an email addressed to Wawas Woods.
     * There is a form that the user can choose to fill in. It has 5 input fields, name, email, address, callback and a textarea. The call back button lets Wawas Woods know if the user would like a callback.
 
-![Contact Us page image](assets/readme-images/contact-us.png)
+![Contact Us page image](assets/readme-images/contact-us2.png)
 [Back to top](<#contents>)
+
+* ### Form confirmation page
+    * This page confirms for the user that their details have been sent to Wawas Woods. For this project it validates the form only.
+    * It provides a direct link back to the contact page as well as the normal navigation menu links in the header and footer.
+    
+![Form confirmation image](assets/readme-images/form-confirmation.png)
 
 ## Future Features 
 
