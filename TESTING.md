@@ -6,9 +6,7 @@ The HTML validator results for each page are below:
 
 * Home page
 
-![W3C Validator test result](assets/readme-images/indextesting.png)
-
-This was an oversight from the development phase when the font size was being modified. It was easily fixed by using the correct closing tag, \</h5>.
+![W3C Validator test result](assets/readme-images/w3ctesting.png)
 
 * Projects page
 
@@ -16,10 +14,13 @@ This was an oversight from the development phase when the font size was being mo
 
 * Inspiration page
 
-![W3C Validator test result](assets/readme-images/inspirationtesting.png)
-This problem highlighted that the \<UL> was inside the \<P> element. It was easily fixed by ensuring that the list was outside of the paragraph.
+![W3C Validator test result](assets/readme-images/w3ctesting.png)
 
 * Contact page
+
+![W3C Validator test result](assets/readme-images/w3ctesting.png)
+
+* Form valiadtion page
 
 ![W3C Validator test result](assets/readme-images/w3ctesting.png)
 
@@ -31,18 +32,18 @@ The CSS validator results are below:
 
 * The responsive design tests were carried out manually with [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) and [Responsive Design Checker](https://www.responsivedesignchecker.com/).
 
-|        | Moto G4 | Galaxy S5 | iPhone 5 | iPad | Display <1200px | Display >1200px |
-|--------|---------|-----------|----------|------|-----------------|-----------------|
-| Render | pass    | pass      | pass     | pass | pass            | pass            |
-| Images | pass    | pass      | pass     | pass | pass            | pass            |
-| Links  | pass    | pass      | pass     | pass | pass            | pass            |
+|        | Moto G4 | Galaxy S5 | iPhone 5 | iPad | iPad Pro | Display <1200px | Display >1200px |
+|--------|---------|-----------|----------|------|----------|-----------------|-----------------|
+| Render | pass    | pass      | pass     | pass | pass     | pass            | pass            |
+| Images | pass    | pass      | pass     | pass | pass     | pass            | pass            |
+| Links  | pass    | pass      | pass     | pass | pass     | pass            | pass            |
 
 Note: On wide display types the contents of the site are restricted in width to 2000px. This helps the UX by not spreading the content too wide on the extra wide screens.
 
 ## Browser Compatibility
 
 Wawas Woods site was tested on the following browsers with no visible issues for the user. 
-Google Chrome, Microsoft Edge, Safari and Mozilla Firefox. Responsiveness was consistent throughout for a range of device sizes.
+Google Chrome, Microsoft Edge, Safari and Mozilla Firefox. Appearance, functionality and responsiveness were consistent throughout for a range of device sizes and browsers.
 
 ## Testing User Stories
 
@@ -83,8 +84,21 @@ Google Chrome, Microsoft Edge, Safari and Mozilla Firefox. Responsiveness was co
     * On the **inspiration** page there are also simplistic descriptions for the methods of constructing the suggested projects.
 
 ## Known Bugs
-* The form, on the face of it acts like you would expect it to, it acknowledges your data input, however the data doesn't push anywhere. This is a limitation within this project and would be rectified for a true deployment of the Wawas Woods site.
-* In the gitpod editor console one problem flags up within the CSS. To enable the site to perform properly on all versions of Safari a 'media query with a blank 'media@' is used. This flags up as an error but infact doesn't affect the sites functionality in its present form. For future development I would link another stylesheet with Safari specific styling to load when Safari is used.
+* ### Resolved
+
+    * During validation two bugs became known during the validation stage, a brief description is below:
+
+    * Home page - 
+    ![W3C Validator test result](assets/readme-images/indextesting.png)
+This was an oversight from the development phase when the font size was being modified. It was easily fixed by using the correct closing tag, \</h5>.
+
+    * Inspiration page - 
+    ![W3C Validator test result](assets/readme-images/inspirationtesting.png)
+This problem highlighted that the \<UL> was inside the \<P> element. It was easily fixed by ensuring that the list was outside of the paragraph.
+
+* ### Unresolved
+    * The form, on the face of it acts like you would expect it to, it acknowledges your data input, however the data doesn't push anywhere. This is a limitation within this project and would be rectified for a true deployment of the Wawas Woods site.
+    * In the gitpod editor console one problem flags up within the CSS. To enable the site to perform properly on all versions of Safari a 'media query with a blank 'media@' is used. This flags up as an error but infact doesn't affect the sites functionality in its present form. For future development I would link another stylesheet with Safari specific styling to load when Safari is used.
     
     ![Safari specific styling image](assets/readme-images/media-query.png)
 

@@ -34,6 +34,7 @@ Welcome to the journey through <a href="https://ewancolquhoun.github.io/wawaswoo
        * Contact details
        * Location map
        * Design Query form
+    * [**Form Confirmation**](<#form-confirmation>)
     * [**Future Features**](<#future-features>)
 * [**Technologies Used**](<#technologies-used>)
 * [**Testing**](<#testing>)
@@ -162,11 +163,12 @@ Wawas Woods site is set up to be welcoming and easy to use. It contains many fea
 ![Contact Us page image](assets/readme-images/contact-us2.png)
 [Back to top](<#contents>)
 
-* ### Form confirmation page
+* ### Form Confirmation
     * This page confirms for the user that their details have been sent to Wawas Woods. For this project it validates the form only.
     * It provides a direct link back to the contact page as well as the normal navigation menu links in the header and footer.
-    
+
 ![Form confirmation image](assets/readme-images/form-confirmation.png)
+[Back to top](<#contents>)
 
 ## Future Features 
 
